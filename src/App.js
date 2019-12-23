@@ -21,13 +21,13 @@ function App() {
       <div>
         <NavBar/>
         <Switch>
-          <Route path="/works">
+          <Route path={`${process.env.PUBLIC_URL}/works`}>
             <Work />
           </Route>
-          <Route path="/about">
+          <Route path={`${process.env.PUBLIC_URL}/about`}>
             <About />
           </Route>
-          <Route path="/">
+          <Route path={`${process.env.PUBLIC_URL}/`}>
             <Home />
           </Route>
         </Switch>

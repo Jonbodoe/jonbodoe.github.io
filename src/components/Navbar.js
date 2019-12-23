@@ -19,13 +19,13 @@ import {
 
 function NavBar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex p-4 fixed-top shadow-sm">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex p-4 fixed-top shadow-sm w-50">
             <Link className="navbar-brand font-weight-bolder px-3" to="/">Jonathan Le</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">
-                <ul className="navbar-nav mr-auto px-5">
+                <ul className="navbar-nav mx-auto px-5">
                     <li className="nav-item px-3">
                         <NavLink exact activeClassName="active" to="/">Home</NavLink>
                     </li>
