@@ -45,9 +45,12 @@ nav a{
   transition: 0.25s all;
   text-decoration: none;
 }
+#tech {
+  height: 24rem;
+}
 
 #web {
-  height: 30rem;
+  height: 32rem;
   background-image: url('./img/herbie.png');
   background-size: cover;
   background-position: center;
@@ -87,8 +90,9 @@ nav a{
 .bg-md-light{
   background-color: #edeff0;
 }
-.bg-red{
-  background-color:#ff5542
+.bg-black {
+  background-color: #383d44;
 }
+
 
 

@@ -27,13 +27,13 @@ function NavBar() {
             <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">
                 <ul className="navbar-nav mx-auto px-5">
                     <li className="nav-item px-3">
-                        <NavLink exact activeClassName="active" to="/">Home</NavLink>
+                        <NavLink exact activeClassName="active" to={`${process.env.PUBLIC_URL}/`}>Home</NavLink>
                     </li>
                     <li className="nav-item px-3">
-                        <NavLink exact activeClassName="active" to="/works">Works</NavLink>
+                        <NavLink exact activeClassName="active" to={`${process.env.PUBLIC_URL}/works`}>Works</NavLink>
                     </li>
                     <li className="nav-item px-3">
-                        <NavLink exact activeClassName="active" to="/about">About</NavLink>
+                        <NavLink exact activeClassName="active" to={`${process.env.PUBLIC_URL}/about`}>About</NavLink>
                     </li>
                 </ul>
             </div>
