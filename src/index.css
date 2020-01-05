@@ -9,9 +9,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f8f9fa;
 }
+nav {
+  position: relative;
+}
 
 #heading {
-  height: 90vh;
+  height: 95vh;
   width: 100vw;
   background-image: url('./img/landing2.png');
   background-size: cover;
@@ -34,9 +37,11 @@ nav a{
   font-size: 17px;
   padding-bottom: 1rem;
   color: #343a40;
+  /* color:white */
 }
 .active {
   color: #343a40;
+  /* color:white; */
   border-bottom: 5px solid #007bff;
   transition: 0.25s all;
 }
@@ -46,23 +51,36 @@ nav a{
   text-decoration: none;
 }
 #tech {
-  height: 24rem;
+  height: 27rem;
 }
 
 #web {
-  height: 32rem;
-  background-image: url('./img/herbie.png');
+  background-image: url('./img/herbieThumb.png');
+}
+#graphics {
+  background-image: url('./img/newsBins.png');
+}
+#illustration {
+  background-image: url('./img/kodakthumb.png');
+}
+.category {
+  height: 55vh;
   background-size: cover;
   background-position: center;
-  background-color: #34373c;
+  /* background-color: #34373c; */
   transition: 0.2s all;
 }
+.category:hover {
+  transition: 0.5s all;
+  opacity: 0.7
+  /* box-shadow: 0rem .125rem .25rem rgba(0,0,0,.2) */
+}
+
 #self {
   height: 30rem;
   background-image: url('./img/jon-1.png');
   background-size: cover;
   background-position: center;
-  background-color: #34373c;
   transition: 0.2s all;
 }
 .spacer {
@@ -77,10 +95,6 @@ nav a{
   width:100%;
   height:0.6rem;
 }
-.category:hover {
-  transition: 0.5s all;
-  box-shadow: 0rem .125rem .25rem rgba(0,0,0,.2)
-}
 .img-half {
   width:50%;
 }
@@ -90,9 +104,13 @@ nav a{
 .bg-md-light{
   background-color: #edeff0;
 }
-.bg-black {
-  background-color: #383d44;
+.bg-orange {
+  background-color: #ff794a;
 }
-
-
+.bg-green {
+  background-color: #12e0a1;
+}
+.bg-black {
+  background-color: #2c3036;
+}
 

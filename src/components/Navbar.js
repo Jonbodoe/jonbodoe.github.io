@@ -1,5 +1,7 @@
 
-import React from 'react';
+import React, { 
+    // useState, useEffect 
+}  from 'react';
 import '../App.css';
 import {
     // BrowserRouter as Router,
@@ -8,6 +10,7 @@ import {
     Link,
     NavLink,
 } from "react-router-dom";
+// import { render } from '@testing-library/react';
 
 // function logScrollDirection() {
 //     var previous = window.scrollY;
@@ -16,30 +19,57 @@ import {
 //         previous = window.scrollY;
 //     });
 // }
+export default function NavBar() {
+    // constructor(props) {
+    //     super(props)
+    // }
+    // let prev = window.scrollY;
+    // const [nav, showNav] = useState(false);
 
-function NavBar() {
-    return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex p-4 fixed-top shadow-sm w-50">
-            <Link className="navbar-brand font-weight-bolder px-3" to="/">Jonathan Le</Link>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">
-                <ul className="navbar-nav mx-auto px-5">
-                    <li className="nav-item px-3">
-                        <NavLink exact activeClassName="active" to={`${process.env.PUBLIC_URL}/`}>Home</NavLink>
-                    </li>
-                    <li className="nav-item px-3">
-                        <NavLink exact activeClassName="active" to={`${process.env.PUBLIC_URL}/works`}>Works</NavLink>
-                    </li>
-                    <li className="nav-item px-3">
-                        <NavLink exact activeClassName="active" to={`${process.env.PUBLIC_URL}/about`}>About</NavLink>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    )
-}
-export default NavBar;
+    // useEffect(()=> {
+    //     // function handleNavChange(change) {
+        
+    //     window.addEventListener('scroll', function (e) {
+    //         if (prev > e.currentTarget.scrollY) {
+    //             // showNav(true)
+    //             // console.log(prev);
+    //             console.log("scrolling up");
+                
+                
+    //         } else if (prev < e.currentTarget.scrollY) {
+    //             console.log("scrolling down");
+    //             // showNav(true)
+    //             // console.log(prev);
+                
+    //         }
+    //         prev = e.currentTarget.scrollY;
+    //     });
+    // // }
+    // })
+
+        return (
+            <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex p-4 fixed-top shadow-sm w-50">
+                <Link className="navbar-brand font-weight-bolder px-3" to="/">Jonathan Le</Link>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse w-100" id="navbarSupportedContent">
+                    <ul className="navbar-nav ml-auto px-5">
+                        <li className="nav-item px-3">
+                            <NavLink exact activeClassName="active" to={`${process.env.PUBLIC_URL}/`}>Home</NavLink>
+                        </li>
+                        <li className="nav-item px-3">
+                            <NavLink exact activeClassName="active" to={`${process.env.PUBLIC_URL}/works`}>Works</NavLink>
+                        </li>
+                        <li className="nav-item px-3">
+                            <NavLink exact activeClassName="active" to={`${process.env.PUBLIC_URL}/about`}>Resume</NavLink>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        )
+    }
+// }
+
 
 
