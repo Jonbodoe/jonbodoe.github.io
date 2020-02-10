@@ -1,30 +1,23 @@
-import React from 'react';
-import {
-    // BrowserRouter as Router,
-    // Switch,
-    // Route,
-    Link,
-    // NavLink,
-  } from "react-router-dom";
 
 const categories = [
     {
-        title: 'Web Development & Design', 
+        title: 'Web Development & Design',
         id: 'web',
+        subCategory: ['Development', 'Web Design'],
+        img: '../img/robotics.jpg'
     },
     {
         title: 'Graphic Design',
         id: 'graphics',
+        subCategory: ['Typography', 'Graphics'],
+        img: '../img/Airbnb.png'
     },
     {
-        title: 'Illustration',
+        title: 'Drawings & Paintings',
         id: 'illustration',
+        subCategory: ['Digital', 'Physical'],
+        img: '../img/grass.png'
     }
-].map((category)=>{
-    return <Link className="col-md-4" to={`/works#${category.id}`}>
-          <div id={category.id} className="category"></div>
-          <h4 className="font-weight-bolder p-4 text-center bg-primary text-white">{category.title}</h4>
-        </Link>
-})
+]
 
 export default categories

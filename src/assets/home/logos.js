@@ -24,7 +24,7 @@ const logos = [
     link: 'https://www.mysql.com/'
   }
 ].map((logo) => {
-  return <div className="col-sm-1 bg-dark d-flex h-100 justify-content-center">
+  return <div className="col-sm-1 bg-dark d-flex h-100 justify-content-center" key={title}>
     <div className="align-self-center text-primary">
       <a href={logo.link} target="_blank" rel="noopener noreferrer">
         <i className={logo.class}></i>

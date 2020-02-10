@@ -36,6 +36,9 @@ const works = [
         githubRepo: true,
         githubLink: ''
     },
+
+    //  NOT COMPLETEDDDD //
+
     {
         mainImg: 'airbnb.jpg',
         description: '',
@@ -48,6 +51,9 @@ const works = [
         githubRepo: true,
         githubLink: ''
     },
+
+    //  NOT COMPLETEDDDD //
+
     {
         mainImg: 'artBoard.jpg',
         description: '',
@@ -60,6 +66,10 @@ const works = [
         githubRepo: true,
         githubLink: ''
     },
+
+
+
+
     {
         mainImg: 'reactlayout.jpg',
         description: '',
@@ -84,6 +94,9 @@ const works = [
         githubRepo: true,
         githubLink: ''
     },
+
+    // Need to Redesign //
+
     {
         mainImg: 'adventure.jpg',
         description: '',
@@ -96,6 +109,9 @@ const works = [
         githubRepo: true,
         githubLink: ''
     },
+
+    // 
+
     {
         mainImg: 'herbie.jpg',
         description: '',
@@ -121,6 +137,10 @@ const works = [
 
 
     // GRAPHICSSSSSSSs
+
+
+
+    // NOT COMPLETED
     {
         mainImg: 'itDontStop.jpg',
         description: '',
@@ -248,4 +268,5 @@ const works = [
         githubLink: ''
     },
 ]
+export default works;
 

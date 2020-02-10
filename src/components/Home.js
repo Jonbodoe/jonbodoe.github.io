@@ -3,10 +3,36 @@ import Footer from "./Footer.js";
 import logosImg from "../img/logos.png";
 // import logos from "../assets/home/logos";
 import categories from "../assets/home/category";
+import Work from "./Work.js"
 import works from "../assets/works/worksInfo";
+import {
+  // BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom";
 
 
 function Home() {
+  works.forEach(work => console.log(work.mainImg))
+
+
+
+  let workCategory = categories.map((category) => {
+      return <React.Fragment key={category.title}>
+        <Link className="col-md-4" to={`/works/${category.id}`}>
+          <div id={category.id} className="category"></div>
+          <h4 className="font-weight-bolder p-4 text-center bg-primary text-white">{category.title}</h4>
+        </Link>
+        <Switch>
+          <Route path="/works">
+            <Work />
+          </Route>
+        </Switch>
+      </React.Fragment>
+    })
+
+
   return <React.Fragment>
     <section id="heading" className="container-fluid p-5 shadow">
       <div className="row h-100">
@@ -48,14 +74,16 @@ function Home() {
         <div className="col-sm-1"></div>
         <div className="col-sm-4 align-self-center text-white">
           <div className="">
-            <h1 className="font-weight-bolder">Web Technologies</h1>
+            <h1 className="font-weight-bolder">What I Use</h1>
+            <h3 className="font-weight-bolder text-primary">Web Technologies</h3>
+
             <p className="text-light">
               For web-based digital products, I actively use Bootstrap, JavaScript, React, JQuery, PHP and MySQL to build responsive, dynamic, and efficient applications.
             </p>
           </div>
         </div>
         <div className="col-sm-6 d-flex h-100">
-          <img className="img-fluid align-self-center p-5" src={logosImg} alt="logos of react.js, MySQL, php, Javascript"/>
+          <img className="img-fluid align-self-center p-5" src={logosImg} alt="logos of react.js, MySQL, php, Javascript" />
         </div>
         {/* {logos} */}
         <div className="col-sm-1"></div>
@@ -70,13 +98,7 @@ function Home() {
     <section className="container-fluid pb-5">
       <h1 className="text-center font-weight-bolder py-5">Works</h1>
       <div className="row">
-        {categories}
-        {/* <Link className="col-md-4 category" to="/works#web">
-          <div id="web"></div>
-          <h1 className="font-weight-bolder py-4">Web Development & Design</h1>
-        </Link>
-        <div className="col-md-4"></div>
-        <div className="col-md-4"></div> */}
+        {workCategory}
       </div>
     </section>
     <Footer />
