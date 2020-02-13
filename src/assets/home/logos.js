@@ -5,31 +5,25 @@ import React, {
 const logos = [
   {
     title: 'React.Js',
-    class: 'fab fa-react fa-6x',
-    link: 'https://reactjs.org/'
+    class: 'fab fa-react fa-7x p-2',
   },
   {
     title: 'Javascript',
-    class: 'fab fa-js fa-6x',
-    link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+    class: 'fab fa-js fa-7x p-2',
   },
   {
     title: 'PHP',
-    class: 'fab fa-php fa-6x',
-    link: 'https://www.php.net/'
+    class: 'fab fa-php fa-7x p-2',
   },
   {
     title: 'MySQL',
-    class: 'fas fa-database fa-6x',
-    link: 'https://www.mysql.com/'
-  }
+    class: 'fas fa-database fa-7x p-2',
+  },
 ].map((logo) => {
-  return <div className="col-sm-1 bg-dark d-flex h-100 justify-content-center" key={title}>
-    <div className="align-self-center text-primary">
-      <a href={logo.link} target="_blank" rel="noopener noreferrer">
-        <i className={logo.class}></i>
-        <h6 className="py-3 text-center font-weight-bolder">{logo.title}</h6>
-      </a>
+  return <div className="d-flex h-100 justify-content-center" key={logo.title}>
+    <div className="align-self-center text-light">
+      <i className={logo.class}></i>
+      {/* <h6 className="py-3 text-center font-weight-bolder">{logo.title}</h6> */}
     </div>
   </div>
 })

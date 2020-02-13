@@ -4,7 +4,7 @@ import {
   Route,
   Switch,
   Link,
-  useParams,
+  // useParams,
   useRouteMatch
 } from "react-router-dom";
 import WorkTitle from "../assets/works/worksTitle"

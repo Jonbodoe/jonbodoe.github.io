@@ -10,6 +10,7 @@ import {
     NavLink,
     Link,
 } from "react-router-dom";
+import jonathan from "../img/jonathan.png"
 // import About from "../components/About"
 // import Work from "../components/Work"
 // import Home from "../components/Home"
@@ -50,9 +51,11 @@ export default function NavBar() {
     // })
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex px-5  py-4 fixed-top shadow-sm ">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex px-5  py-3 fixed-top shadow-sm ">
             <div className="container">
-            <Link className="navbar-brand font-weight-bolder px-3" to="/">Jonathan Le</Link>
+            <Link className="navbar-brand font-weight-bolder px-3" to="/">
+                <img className="img-brand" src={jonathan} alt="Jonathan"/>
+            </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

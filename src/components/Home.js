@@ -2,15 +2,16 @@ import React from 'react';
 import Footer from "./Footer.js";
 import logosImg from "../img/logos.png";
 // import logos from "../assets/home/logos";
-import categories from "../assets/home/category";
-import Work from "./Work.js"
+// import categories from "../assets/home/category";
+// import Work from "./Work.js"
 import works from "../assets/works/worksInfo";
-import {
-  // BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-} from "react-router-dom";
+// import {
+//   // BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link,
+// } from "react-router-dom";
+import workCategory from "../assets/home/workCategories"
 
 
 function Home() {
@@ -18,30 +19,17 @@ function Home() {
 
 
 
-  let workCategory = categories.map((category) => {
-      return <React.Fragment key={category.title}>
-        <Link className="col-md-4" to={`/works/${category.id}`}>
-          <div id={category.id} className="category"></div>
-          <h4 className="font-weight-bolder p-4 text-center bg-primary text-white">{category.title}</h4>
-        </Link>
-        <Switch>
-          <Route path="/works">
-            <Work />
-          </Route>
-        </Switch>
-      </React.Fragment>
-    })
 
 
   return <React.Fragment>
-    <section id="heading" className="container-fluid p-5 shadow">
+    <section id="heading" className="container-fluid p-5 shadow-md">
       <div className="row h-100">
         <div className="col-md-7">
         </div>
         <div className="col-md-5 d-flex justify-content-center h-100 ">
           <div className="align-self-center text-white py-5">
-            <h1 className="font-weight-bolder">Jonathan Le</h1>
-            <h3 className="font-weight-bold text-light">
+            <h1 className="font-weight-bolder border-bottom-white">Jonathan Le</h1>
+            <h3 className="text-light">
               &lt; Web Developer & Designer /&gt;
           </h3>
           </div>
@@ -50,9 +38,9 @@ function Home() {
     </section>
     {/* <div className="spacer"><h1 className="font-weight-bolder">ABOUT</h1></div> */}
     <section className="container-fluid">
-      <div className="row bg-light">
-        <div className="col-md-1 bg-primary"></div>
-        <div id="self" className="col-md-5 d-flex w-100">
+      <div className="row">
+        <div className="col-md-1 bg-white"></div>
+        <div id="self" className="col-md-5 d-flex w-100 shadow-md box-shadow-orange">
         </div>
         <div className="col-md-5 align-self-center justify-content-center">
           <div className="py-4">
@@ -66,24 +54,23 @@ function Home() {
           </p>
           </div>
         </div>
-        <div className="col-md-1"></div>
+        <div className="col-md-1 bg-white"></div>
       </div>
     </section>
-    <section id="tech" className="container-fluid shadow">
-      <div className="row h-100 bg-dark">
+    <section id="tech" className="container-fluid shadow-md">
+      <div className="row h-100 bg-primary">
         <div className="col-sm-1"></div>
-        <div className="col-sm-4 align-self-center text-white">
+        <div className="col-sm-4 align-self-center">
           <div className="">
-            <h1 className="font-weight-bolder">What I Use</h1>
-            <h3 className="font-weight-bolder text-primary">Web Technologies</h3>
-
+            <h1 className="font-weight-bolder text-white">Tools I Use</h1>
+            <h3 className="font-weight-bolder ">Web Languages & Frameworks</h3>
             <p className="text-light">
-              For web-based digital products, I actively use Bootstrap, JavaScript, React, JQuery, PHP and MySQL to build responsive, dynamic, and efficient applications.
+              For web-based digital products, I actively use Bootstrap, JavaScript, React, JQuery, PHP and MySQL to build responsive and dynamic applications.
             </p>
           </div>
         </div>
-        <div className="col-sm-6 d-flex h-100">
-          <img className="img-fluid align-self-center p-5" src={logosImg} alt="logos of react.js, MySQL, php, Javascript" />
+        <div className="col-sm-6 d-flex h-100 p-sm-5">
+          <img className="img-fluid align-self-center p-sm-5" src={logosImg} alt="logos of react.js, MySQL, php, Javascript" />
         </div>
         {/* {logos} */}
         <div className="col-sm-1"></div>
@@ -95,9 +82,12 @@ function Home() {
       </div>
     </section>
 
-    <section className="container-fluid pb-5">
-      <h1 className="text-center font-weight-bolder py-5">Works</h1>
-      <div className="row">
+    <section className="container-fluid py-5">
+      <div className="py-5">
+        <h1 className="text-center font-weight-bolder">Works</h1>
+        <h3 className="text-primary text-center font-weight-bold">school works to personal projects</h3>
+      </div>
+      <div className="row pb-4">
         {workCategory}
       </div>
     </section>
