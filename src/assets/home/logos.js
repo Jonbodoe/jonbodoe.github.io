@@ -1,3 +1,12 @@
+
+
+
+
+// No Longer Needed
+
+
+
+
 import React, {
   // useState, useEffect 
 } from 'react';
@@ -27,4 +36,4 @@ const logos = [
     </div>
   </div>
 })
-export default logos
+// export default logos

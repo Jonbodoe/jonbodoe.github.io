@@ -1,9 +1,17 @@
 import React from 'react';
-import works from './worksInfo'
+import {
+    //   BrowserRouter as Router,
+    useParams
+  } from "react-router-dom";
+// import works from './worksInfo'
+// import works from './worksInfo';
 
 export default function Works() {
-    console.log(works)
+    let { type } = useParams();
+    
+    // console.log(works)
     return <React.Fragment>
         <div>hello</div>
+        <div>{type}</div>
     </React.Fragment>
 }

@@ -1,16 +1,19 @@
 body {
   margin: 0;
   /* font-family: 'Open Sans', sans-serif; */
-  font-family: 'Source Sans Pro', sans-serif;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
+  font-family: 'Titillium Web', sans-serif;
+  /* font-family: 'Work Sans', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f8f9fa;
+  
 }
 nav {
   position: relative;
+}
+footer {
+  overflow: hidden;
+  /* height: 10rem; */
 }
 
 #heading {
@@ -25,10 +28,10 @@ h1 {
   font-size: 3rem;
 }
 #heading h1{
-  font-size: 5.5rem;
+  font-size: 4.5rem;
 }
 #heading h3{
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 600;
 
 }
@@ -42,9 +45,11 @@ nav a{
   color: #343a40;
   /* color:white */
 }
+.boldish {
+  font-weight:600
+}
 .active {
-  color: #ff6e3b;
-  /* color:white; */
+  color: #007bff;
   border-bottom: 5px solid #007bff;
   transition: 0.25s all;
 }
@@ -93,7 +98,6 @@ nav a{
   width: 100%;
   height: 10rem;
 }
-
 .text-dark{
   color:#343a40
 }
@@ -103,6 +107,9 @@ nav a{
 }
 .img-half {
   width:50%;
+}
+.img-jon{
+  width: 27rem;
 }
 .img-brand{
   width: 15rem;
@@ -119,7 +126,7 @@ nav a{
   background-color: #edeff0;
 }
 .bg-orange {
-  background-color: #ff6e3b;
+  background-color: #ff605c;
 }
 .bg-green {
   background-color: #00e89f;
@@ -148,6 +155,7 @@ nav a{
 .box-shadow-primary {
   box-shadow: 30px -40px #007bff;
 }
+
 /* .header-topic {
   background-size: cover;
   background-position: center;

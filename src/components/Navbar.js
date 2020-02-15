@@ -51,7 +51,7 @@ export default function NavBar() {
     // })
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex px-5  py-3 fixed-top shadow-sm ">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex px-5  py-3 fixed-top shadow-sm w-50">
             <div className="container">
             <Link className="navbar-brand font-weight-bolder px-3" to="/">
                 <img className="img-brand" src={jonathan} alt="Jonathan"/>

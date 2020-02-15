@@ -36,8 +36,10 @@ export default function Work() {
         {categoryLinks}
       </div>
     </section>
-    <section>
-      <Works/>
-    </section>
+    <Route path={`${path}/:type`}>
+      <section>
+        <Works/>
+      </section>
+    </Route>
   </React.Fragment>
 }

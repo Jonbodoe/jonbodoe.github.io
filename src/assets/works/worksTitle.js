@@ -6,7 +6,12 @@ import {
 import categories from '../home/category'
 
 export default function WorkTitle() {
+  // const [color, setColor ] = useState('')
   let { subId } = useParams();
+  // console.log('hello')
+  // useEffect(()=> {
+  //   console.log(color)
+  // })
   let title = categories.map(element => {
     return <React.Fragment key={element.id}>
       {subId === element.id ? element.title : ''}
