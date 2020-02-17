@@ -18,7 +18,7 @@ let workCategory = categories.map((category) => {
             <div id={category.id} className="category"></div>
           </div>
           <div className={category.color + ' py-4'}>
-          <h5 className="font-weight-bolder text-center text-white">{category.title}</h5>
+          <h5 className="text-center text-white">{category.title}</h5>
           </div>
       </Link>
       <Switch>
@@ -26,6 +26,7 @@ let workCategory = categories.map((category) => {
           <Work />
         </Route>
       </Switch>
+      {/* Add transitiongroup and csstransitions */}
     </React.Fragment>
   })
 

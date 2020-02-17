@@ -2,9 +2,10 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Switch,
   Route,
+  withRouter,
   // Link
 } from "react-router-dom";
 
@@ -13,27 +14,42 @@ import Home from './components/Home.js';
 import About from './components/About.js';
 import Work from './components/Work.js';
 // import { Fragment } from 'react';
+import {
+  TransitionGroup,
+  CSSTransition
+} from 'react-transition-group'
 
 
-function App() {
+const App = ({ location }) => {
+  console.log(location)
   return (
-    <Router>
-      <div>
-        <NavBar/>
-        <Switch>
-          <Route path={`${process.env.PUBLIC_URL}/works`}>
-            <Work />
-          </Route>
-          <Route path={`${process.env.PUBLIC_URL}/about`}>
-            <About />
-          </Route>
-          <Route path={`${process.env.PUBLIC_URL}/`}>
-            <Home />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+    <div>
+      {/* <Router> */}
+      <NavBar />
+      <Route render={({location}) => (
+        <TransitionGroup>
+          <CSSTransition
+            key={location.key}
+            timeout={500}
+            classNames='fade'
+          >
+            <Switch location={location}>
+              <Route path={`${process.env.PUBLIC_URL}/works`}>
+                <Work />
+              </Route>
+              <Route path={`${process.env.PUBLIC_URL}/about`}>
+                <About />
+              </Route>
+              <Route path={`${process.env.PUBLIC_URL}/`}>
+                <Home />
+              </Route>
+            </Switch>
+          </CSSTransition>
+        </TransitionGroup>
+      )} />
+      {/* </Router> */}
+    </div>
   );
 }
 
-export default App;
+export default withRouter(App);

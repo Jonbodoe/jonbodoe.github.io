@@ -15,6 +15,9 @@ footer {
   overflow: hidden;
   /* height: 10rem; */
 }
+.page {
+  position: absolute;
+}
 
 #heading {
   height: 95vh;
@@ -154,6 +157,21 @@ nav a{
 }
 .box-shadow-primary {
   box-shadow: 30px -40px #007bff;
+}
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity:1;
+  transition: 0.5s ease 0.25s;
+}
+
+.fade-exit {
+  /* background-color:black; */
+  opacity: 0;
 }
 
 /* .header-topic {
