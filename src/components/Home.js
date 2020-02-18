@@ -6,18 +6,18 @@ import logosImg from "../img/logos.png";
 // import Work from "./Work.js"
 // import works from "../assets/works/worksInfo";
 // import jonLogo from "../img/jon-1.png"
-import {
+// import {
   // BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  withRouter,
-} from "react-router-dom";
+  // Switch,
+  // Route,
+  // Link,
+//   withRouter,
+// } from "react-router-dom";
 import workCategory from "../assets/home/workCategories"
 
 
-const Home = ({location}) => {
-  console.log(location)
+const Home = () => {
+  // console.log(location)
   // works.forEach(work => console.log(work.mainImg))
 
   return <React.Fragment>
@@ -90,4 +90,4 @@ const Home = ({location}) => {
     </div>
   </React.Fragment>;
 }
-export default withRouter(Home);
+export default Home;

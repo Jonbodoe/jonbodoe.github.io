@@ -1,5 +1,5 @@
 {
-  "homepage": "http://jonbodoe.github.io/",
+  "homepage": "http://jonbodoe.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -37,6 +37,6 @@
   },
   "devDependencies": {
     "eslint-plugin-react-hooks": "^2.3.0",
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.2.0"
   }
 }

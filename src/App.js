@@ -24,13 +24,12 @@ const App = ({ location }) => {
   console.log(location)
   return (
     <div>
-      {/* <Router> */}
       <NavBar />
       <Route render={({location}) => (
         <TransitionGroup>
           <CSSTransition
             key={location.key}
-            timeout={500}
+            timeout={300}
             classNames='fade'
           >
             <Switch location={location}>
