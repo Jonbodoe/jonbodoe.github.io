@@ -17,7 +17,8 @@ const works = [
         title:'Developed A Content Management System for RailPix',
         topic:'RailPix',
         objective: 'To create a content management system using PHP / MySQL with CRUD functionalities',
-        process:'',
+        process:
+            'The concept of the project was open-ended as long as it meets the requirements. I wanted to create a project that tied into what I enjoy in my free time. ',
         result:'As a result, I built a photo tracking CMS plateform for tracking trains and its documented location',
         category: web,
         subCategory: webDev,
