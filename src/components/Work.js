@@ -38,7 +38,7 @@ function Work() {
       </div>
       <Route path={`${path}/:type`}>
         <section>
-          <Works />
+          <Works/>
         </section>
       </Route>
     </section>

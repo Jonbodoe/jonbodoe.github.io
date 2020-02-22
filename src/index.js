@@ -6,7 +6,7 @@ import {
     BrowserRouter as Router,
     // Switch,
     Route,
-    withRouter,
+    // withRouter,
     // Link
   } from "react-router-dom";
 // import * as serviceWorker from './serviceWorker';

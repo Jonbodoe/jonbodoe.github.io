@@ -1,9 +1,9 @@
-const web = "Web"
+const web = "web"
 const webDev = 'Web Development';
-const webDesign = 'Web Design'
+// const webDesign = 'Web Design'
 
-const illustration = 'Illustration';
-const graphic = 'Graphics';
+const illustration = 'illustration';
+const graphic = 'graphics';
 const typography = "Typography";
 const concept = "Concept";
 const digital = 'Digital';
@@ -30,7 +30,7 @@ const works = [
         githubLink: ''
     },
     {
-        mainImg: 'robotics.jpg',
+        mainImg: 'robotics.png',
         title:'Designed and Developed Intuitive Robotics Website',
         topic:'Intuitive Robotics',
         objective: 'To create a responsive design website with PHP and Javascript functionalities',
@@ -48,49 +48,49 @@ const works = [
 
     //  NOT COMPLETEDDDD //
 
-    {
-        mainImg: 'airbnb.jpg',
-        title:'',
-        topic:'',
-        description: '',
-        objective: '',
-        process:'',
-        result:'',
-        category: web,
-        subCategory: webDev,
-        primary: false,
-        tools: 'Bootstrap, Javascript, Googlemaps Api',
-        supportImg: false,
-        detailId: null,
-        githubRepo: true,
-        githubLink: ''
-    },
+    // {
+    //     mainImg: 'airbnb.jpg',
+    //     title:'',
+    //     topic:'',
+    //     description: '',
+    //     objective: '',
+    //     process:'',
+    //     result:'',
+    //     category: web,
+    //     subCategory: webDev,
+    //     primary: false,
+    //     tools: 'Bootstrap, Javascript, Googlemaps Api',
+    //     supportImg: false,
+    //     detailId: null,
+    //     githubRepo: true,
+    //     githubLink: ''
+    // },
 
     //  NOT COMPLETEDDDD //
 
-    {
-        mainImg: 'artBoard.jpg',
-        title:'',
-        topic:'',
-        description: '',
-        objective: '',
-        process:'',
-        result:'',
-        category: web,
-        subCategory: webDev,
-        primary: false,
-        tools: 'Bootstrap, Javascript, React.Js, Redux, React-Router',
-        supportImg: true,
-        detailId: null,
-        githubRepo: true,
-        githubLink: ''
-    },
+    // {
+    //     mainImg: 'artBoard.jpg',
+    //     title:'',
+    //     topic:'',
+    //     description: '',
+    //     objective: '',
+    //     process:'',
+    //     result:'',
+    //     category: web,
+    //     subCategory: webDev,
+    //     primary: false,
+    //     tools: 'Bootstrap, Javascript, React.Js, Redux, React-Router',
+    //     supportImg: true,
+    //     detailId: null,
+    //     githubRepo: true,
+    //     githubLink: ''
+    // },
 
 
 
 
     {
-        mainImg: 'reactlayout.jpg',
+        mainImg: 'reactlayout.png',
         title:'',
         topic:'',
         description: '',
@@ -107,7 +107,7 @@ const works = [
         githubLink: ''
     },
     {
-        mainImg: 'conceptProject.jpg',
+        mainImg: 'concept.png',
         title:'',
         topic:'',
         description: '',
@@ -127,7 +127,7 @@ const works = [
     // Need to Redesign //
 
     {
-        mainImg: 'adventure.jpg',
+        mainImg: 'adventure.png',
         title:'',
         topic:'',
         description: '',
@@ -146,38 +146,38 @@ const works = [
 
     // 
 
-    {
-        mainImg: 'herbie.jpg',
-        title:'',
-        topic:'',
-        description: '',
-        objective: '',
-        process:'',
-        result:'',
-        category: web,
-        subCategory: webDesign,
-        primary: false,
-        tools: 'Photoshop, Illustrator',
-        supportImg: true,
-        githubRepo: true,
-        githubLink: ''
-    },
-    {
-        mainImg: 'newsBins.jpg',
-        title:'',
-        topic:'',
-        description: '',
-        objective: '',
-        process:'',
-        result:'',
-        category: web,
-        subCategory: webDesign,
-        primary: false,
-        tools: 'Illustrator',
-        supportImg: true,
-        githubRepo: true,
-        githubLink: ''
-    },
+    // {
+    //     mainImg: 'herbie.jpg',
+    //     title:'',
+    //     topic:'',
+    //     description: '',
+    //     objective: '',
+    //     process:'',
+    //     result:'',
+    //     category: web,
+    //     subCategory: webDesign,
+    //     primary: false,
+    //     tools: 'Photoshop, Illustrator',
+    //     supportImg: true,
+    //     githubRepo: true,
+    //     githubLink: ''
+    // },
+    // {
+    //     mainImg: 'newsBins.jpg',
+    //     title:'',
+    //     topic:'',
+    //     description: '',
+    //     objective: '',
+    //     process:'',
+    //     result:'',
+    //     category: web,
+    //     subCategory: webDesign,
+    //     primary: false,
+    //     tools: 'Illustrator',
+    //     supportImg: true,
+    //     githubRepo: true,
+    //     githubLink: ''
+    // },
 
 
     // GRAPHICSSSSSSSs

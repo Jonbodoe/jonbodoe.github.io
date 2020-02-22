@@ -13,6 +13,7 @@ import NavBar from './components/Navbar.js';
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Work from './components/Work.js';
+import ScrollToTop from './assets/etc/scrollTop';
 // import { Fragment } from 'react';
 import {
   TransitionGroup,
@@ -20,10 +21,12 @@ import {
 } from 'react-transition-group'
 
 
+
 const App = ({ location }) => {
   console.log(location)
   return (
     <div>
+      <ScrollToTop/>
       <NavBar />
       <Route render={({location}) => (
         <TransitionGroup>
