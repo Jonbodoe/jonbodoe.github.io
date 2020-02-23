@@ -1,6 +1,16 @@
+import jquery from '../../img/jquery-icon.svg';
+import react from '../../img/react-brands.svg';
+import css from '../../img/css3-brands.svg';
+import html from '../../img/html5-brands.svg';
+import bootstrap from '../../img/bootstrap-brands.svg';
+import javascript from '../../img/js-brands.svg';
+import php from '../../img/php-brands.svg';
+import mysql from '../../img/database-solid.svg'
+
+
 const web = "web"
 const webDev = 'Web Development';
-// const webDesign = 'Web Design'
+const webDesign = 'Web Design'
 
 const illustration = 'illustration';
 const graphic = 'graphics';
@@ -8,6 +18,8 @@ const typography = "Typography";
 const concept = "Concept";
 const digital = 'Digital';
 const paint = "Paint";
+
+
 
 const works = [
 
@@ -23,7 +35,7 @@ const works = [
         category: web,
         subCategory: webDev,
         primary: true,
-        tools: 'PHP, MySQL, Javascript, Bootstrap, GoogleMaps Api',
+        tools: [bootstrap, php, mysql, javascript],
         supportImg: true,
         detailId: 1,
         githubRepo: true,
@@ -31,7 +43,7 @@ const works = [
     },
     {
         mainImg: 'robotics.png',
-        title:'Designed and Developed Intuitive Robotics Website',
+        title:'Designed & Developed Intuitive Robotics Website',
         topic:'Intuitive Robotics',
         objective: 'To create a responsive design website with PHP and Javascript functionalities',
         process:'Talk about me and sam discussing starting a little company',
@@ -39,7 +51,7 @@ const works = [
         category: web,
         subCategory: webDev,
         primary: true,
-        tools: 'Bootstrap, Javascript, PHP',
+        tools: [html, css, bootstrap, javascript],
         supportImg: true,
         detailId: 2,
         githubRepo: true,
@@ -91,16 +103,16 @@ const works = [
 
     {
         mainImg: 'reactlayout.png',
-        title:'',
-        topic:'',
+        title:'Developed a React UI Web Application',
+        topic:'React Layout',
         description: '',
-        objective: '',
+        objective: 'Practicing to use React.JS Web Application involving state and props',
         process:'',
         result:'',
         category: web,
         subCategory: webDev,
         primary: false,
-        tools: 'React.Js, CSS',
+        tools: [css, react],
         supportImg: true,
         detailId: null,
         githubRepo: true,
@@ -108,16 +120,16 @@ const works = [
     },
     {
         mainImg: 'concept.png',
-        title:'',
-        topic:'',
+        title:'Intro to UX design and Web Development',
+        topic:'Writers Block',
         description: '',
-        objective: '',
+        objective: 'Implement UX practices with classmates while creating a website w/ responsive design',
         process:'',
         result:'',
         category: web,
         subCategory: webDev,
         primary: true,
-        tools: 'CSS, HTML',
+        tools: [html, css, javascript],
         supportImg: true,
         detailId: 3,
         githubRepo: true,
@@ -128,16 +140,16 @@ const works = [
 
     {
         mainImg: 'adventure.png',
-        title:'',
-        topic:'',
+        title:'Created A Choose Your Adventure Project',
+        topic:'Day Dream',
         description: '',
-        objective: '',
+        objective: 'To lean how to use Javascript with conditional logic, seperation of concerns, closures and MVC practices',
         process:'',
         result:'',
         category: web,
         subCategory: webDev,
         primary: true,
-        tools: 'Javascript',
+        tools: [javascript, jquery],
         supportImg: true,
         detailId: 4,
         githubRepo: true,
@@ -146,22 +158,22 @@ const works = [
 
     // 
 
-    // {
-    //     mainImg: 'herbie.jpg',
-    //     title:'',
-    //     topic:'',
-    //     description: '',
-    //     objective: '',
-    //     process:'',
-    //     result:'',
-    //     category: web,
-    //     subCategory: webDesign,
-    //     primary: false,
-    //     tools: 'Photoshop, Illustrator',
-    //     supportImg: true,
-    //     githubRepo: true,
-    //     githubLink: ''
-    // },
+    {
+        mainImg: 'herbie.png',
+        title:'Desigining Landing Pages',
+        topic:'Web Design',
+        description: '',
+        objective: 'To learn how to create visuals for landing pages that can be turned be created in development',
+        process:'',
+        result:'',
+        category: web,
+        subCategory: webDesign,
+        primary: false,
+        tools: [html, css],
+        supportImg: true,
+        githubRepo: true,
+        githubLink: ''
+    },
     // {
     //     mainImg: 'newsBins.jpg',
     //     title:'',
