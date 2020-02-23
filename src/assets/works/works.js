@@ -19,7 +19,7 @@ export default function Works() {
     let { type } = useParams();
     let listedWorks = works.map(element => {
         if (element.category === type) {
-            return <div className="container my-5 shadow-md widget bg-white px-sm-3" key={element.mainImg}>
+            return <div className="container my-5 shadow-md widget bg-white" key={element.mainImg}>
                 <div className="row">
                     <img className="img-fluid col-sm-8" src={require(`../../img/${element.mainImg}`)} alt={element.mainImg} key={element.mainImg} />
                     <div className="col-sm-4 d-flex align-self-center px-sm-4">
@@ -27,7 +27,7 @@ export default function Works() {
                             <h2 className="font-weight-bold">{element.topic}</h2>
                             <h6 className="boldish text-primary">{element.title}</h6>
                             <p>{element.objective}</p>
-                            {/* <div className="">Tools used</div> */}
+                            <div className="boldish text-secondary">Tools:</div>
                             {
                                 element.tools.map((icon, index)=> {
                                     return <img className="icon" src={icon} alt="web languages" key={index}/>

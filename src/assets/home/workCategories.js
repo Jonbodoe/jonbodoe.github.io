@@ -14,12 +14,12 @@ import {
 
 let workCategory = categories.map((category) => {
     return <React.Fragment key={category.title}>
-      <Link className="col-md-4 category-section shadow-md" to={`/works/${category.id}`}>
+      <Link className="col-sm-4 category-section shadow-md" to={`/works/${category.id}`}>
           <div className="category-container">
             <div id={category.id} className="category"></div>
           </div>
-          <div className={category.color + ' py-4'}>
-          <h5 className="text-center text-white">{category.title}</h5>
+          <div className={category.color + ' py-3'}>
+          <p className="text-center text-white boldish">{category.title}</p>
           </div>
       </Link>
       <Switch>

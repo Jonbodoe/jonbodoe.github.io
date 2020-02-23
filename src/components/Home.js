@@ -43,7 +43,7 @@ const Home = () => {
           <div id="self" className="col-md-6 shadow-md">
             {/* <img className="img-jon box-shadow-orange" src={jonLogo} alt="logo of myself"/> */}
           </div>
-          <div className="col-md-6 align-self-center justify-content-center h-100">
+          <div className="col-md-6 align-self-center justify-content-center h-100 p-5">
             <div className="py-4">
               <h1 className="font-weight-bolder px-md-5">About Me</h1>
               <h3 className="font-weight-bolder px-md-5 text-primary">Hey There!</h3>
@@ -59,9 +59,9 @@ const Home = () => {
         </div>
       </section>
       <section id="tech" className="container-fluid">
-        <div className="row h-100 bg-primary">
-          <div className="col-sm-1"></div>
-          <div className="col-sm-4 align-self-center">
+        <div className="row h-100 bg-primary p-5">
+          <div className="col-md-1"></div>
+          <div className="col-md-4 align-self-center">
             <div className="p-sm-4">
               <h1 className="font-weight-bolder text-white">Tools I Use</h1>
               <h3 className="font-weight-bolder text-dark">Web Languages & Frameworks</h3>
@@ -70,19 +70,19 @@ const Home = () => {
             </p>
             </div>
           </div>
-          <div className="col-sm-6 d-flex h-100 p-sm-5">
-            <img className="img-fluid align-self-center p-sm-5" src={logosImg} alt="logos of react.js, MySQL, php, Javascript" />
+          <div className="col-md-6 d-flex h-100 p-sm-5">
+            <img className="img-fluid align-self-center" src={logosImg} alt="logos of react.js, MySQL, php, Javascript" />
           </div>
           {/* {logos} */}
-          <div className="col-sm-1 "></div>
+          <div className="col-md-1 "></div>
         </div>
       </section>
-      <section className="container-fluid py-5 bg-white">
+      <section className="container-fluid py-5">
         <div className="py-5">
           <h1 className="text-center font-weight-bolder">Works</h1>
           <h3 className="text-primary text-center font-weight-bold">school works to personal projects</h3>
         </div>
-        <div className="row pb-4">
+        <div className="row pb-4 justify-content-around">
           {workCategory}
         </div>
       </section>

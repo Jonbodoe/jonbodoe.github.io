@@ -15,6 +15,9 @@ footer {
   overflow: hidden;
   /* height: 10rem; */
 }
+p {
+  font-weight: 400;
+}
 .page {
   position: absolute;
 }
@@ -62,14 +65,14 @@ nav a{
   text-decoration: none;
 }
 #tech {
-  height: 32rem;
+  height: 100%;
 }
 
 #web {
   background-image: url('./img/herbieThumb.png');
 }
 #graphics {
-  background-image: url('./img/newsBins.png');
+  background-image: url('./img/newsthumb.png');
 }
 #illustration {
   background-image: url('./img/kodakthumb.png');
@@ -175,23 +178,30 @@ nav a{
 }
 
 .widget {
-  padding-left: 0px;
-  border-radius: 10px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+.widget:hover {
+  opacity: 0.8
 }
 .boldish {
   font-weight: 600;
 }
 .button {
   width: 9rem;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 0.6rem;
 }
 img.icon {
   width: 2.5rem;
-  padding: 0.4rem;
+  padding: 0rem 0.4rem;
 }
 /* .header-topic {
   background-size: cover;
   background-position: center;
 } */
+
+@media only screen and (min-width: 600px) {
+  
+}
 

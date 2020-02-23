@@ -26,7 +26,7 @@ const works = [
     // WEBBBBBBBBB
     {
         mainImg: 'railpix.png',
-        title:'Developed A Content Management System for RailPix',
+        title:'Content Management System',
         topic:'RailPix',
         objective: 'To create a content management system using PHP / MySQL with CRUD functionalities',
         process:
@@ -43,7 +43,7 @@ const works = [
     },
     {
         mainImg: 'robotics.png',
-        title:'Designed & Developed Intuitive Robotics Website',
+        title:'Website Design & Development',
         topic:'Intuitive Robotics',
         objective: 'To create a responsive design website with PHP and Javascript functionalities',
         process:'Talk about me and sam discussing starting a little company',
@@ -103,7 +103,7 @@ const works = [
 
     {
         mainImg: 'reactlayout.png',
-        title:'Developed a React UI Web Application',
+        title:'React UI Web Application',
         topic:'React Layout',
         description: '',
         objective: 'Practicing to use React.JS Web Application involving state and props',
@@ -120,7 +120,7 @@ const works = [
     },
     {
         mainImg: 'concept.png',
-        title:'Intro to UX design and Web Development',
+        title:'UX Design and Web Development',
         topic:'Writers Block',
         description: '',
         objective: 'Implement UX practices with classmates while creating a website w/ responsive design',
@@ -140,7 +140,7 @@ const works = [
 
     {
         mainImg: 'adventure.png',
-        title:'Created A Choose Your Adventure Project',
+        title:'Choose Your Adventure Project',
         topic:'Day Dream',
         description: '',
         objective: 'To lean how to use Javascript with conditional logic, seperation of concerns, closures and MVC practices',
@@ -160,7 +160,7 @@ const works = [
 
     {
         mainImg: 'herbie.png',
-        title:'Desigining Landing Pages',
+        title:'Landing Pages',
         topic:'Web Design',
         description: '',
         objective: 'To learn how to create visuals for landing pages that can be turned be created in development',

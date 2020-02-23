@@ -24,3 +24,9 @@
     transform: rotate(360deg);
   }
 }
+@media only screen and (max-width: 600px) {
+  .App-logo {
+    height: 25vmin;
+    pointer-events: none;
+  }
+}
