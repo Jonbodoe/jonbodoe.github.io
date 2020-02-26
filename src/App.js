@@ -45,6 +45,7 @@ const App = ({ location }) => {
               <Route path={`${process.env.PUBLIC_URL}/`}>
                 <Home />
               </Route>
+
             </Switch>
           </CSSTransition>
         </TransitionGroup>

@@ -1,18 +1,7 @@
 import React from 'react';
 import Footer from "./Footer.js";
 import logosImg from "../img/logos.png";
-// import logos from "../assets/home/logos";
-// import categories from "../assets/home/category";
-// import Work from "./Work.js"
-// import works from "../assets/works/worksInfo";
-// import jonLogo from "../img/jon-1.png"
-// import {
-  // BrowserRouter as Router,
-  // Switch,
-  // Route,
-  // Link,
-//   withRouter,
-// } from "react-router-dom";
+
 import workCategory from "../assets/home/workCategories"
 
 
@@ -21,6 +10,7 @@ const Home = () => {
   // works.forEach(work => console.log(work.mainImg))
 
   return <React.Fragment>
+    <main>
     <div className="page">
       <section id="heading" className="container-fluid p-5 shadow-md">
         <div className="row h-100">
@@ -61,7 +51,7 @@ const Home = () => {
       <section id="tech" className="container-fluid">
         <div className="row h-100 bg-primary p-5">
           <div className="col-md-1"></div>
-          <div className="col-md-4 align-self-center">
+          <div className="col-md-5 align-self-center">
             <div className="p-sm-4">
               <h1 className="font-weight-bolder text-white">Tools I Use</h1>
               <h3 className="font-weight-bolder text-dark">Web Languages & Frameworks</h3>
@@ -71,10 +61,10 @@ const Home = () => {
             </div>
           </div>
           <div className="col-md-6 d-flex h-100 p-sm-5">
-            <img className="img-fluid align-self-center" src={logosImg} alt="logos of react.js, MySQL, php, Javascript" />
+            <img id="webLogos" className="align-self-center" src={logosImg} alt="logos of react.js, MySQL, php, Javascript" />
           </div>
           {/* {logos} */}
-          <div className="col-md-1 "></div>
+          {/* <div className="col-md-1 "></div> */}
         </div>
       </section>
       <section className="container-fluid py-5">
@@ -88,6 +78,7 @@ const Home = () => {
       </section>
       <Footer />
     </div>
+    </main>
   </React.Fragment>;
 }
 export default Home;

@@ -5,7 +5,7 @@ import {
   Switch,
   Link,
   // useParams,
-  useRouteMatch,
+  // useRouteMatch,
   withRouter
 } from "react-router-dom";
 import WorkTitle from "../assets/works/worksTitle"
@@ -13,10 +13,10 @@ import categories from "../assets/home/category.js"
 import Works from "../assets/works/works"
 
 function Work() {
-  let { path, url } = useRouteMatch()
+  // let { path, url } = useRouteMatch()
   let categoryLinks = categories.map((category => {
     return <React.Fragment key={category.title}>
-      <Link className={"col-sm-4 d-flex justify-content-center " + category.color} to={`${url + "/" + category.id}`}>
+      <Link className={"col-sm-4 d-flex justify-content-center py-3 " + category.color} to={`/works/${category.id}`}>
         <h6 className="align-self-center text-white">{category.title}</h6>
       </Link>
     </React.Fragment>
@@ -24,19 +24,19 @@ function Work() {
   return <React.Fragment>
     <section className="container-fluid pt-5 page">
       <Switch>
-        <Route exact path={path}>
+        <Route exact path='/works'>
           <div className="text-center py-5">
             <h1 className="font-weight-bolder pt-5 text-dark">Choose Category</h1>
           </div>
         </Route>
-        <Route path={`${path}/:subId`}>
+        <Route path='/works/:subId'>
           <WorkTitle />
         </Route>
       </Switch>
       <div id="topics" className="row">
         {categoryLinks}
       </div>
-      <Route path={`${path}/:type`}>
+      <Route path='/works/:type'>
         <section>
           <Works/>
         </section>

@@ -47,7 +47,7 @@ a:hover {
 nav a{
   font-weight: 600;
   font-size: 17px;
-  padding-bottom: 1rem;
+  padding-bottom: 0.8rem;
   color: #343a40;
   /* color:white */
 }
@@ -135,7 +135,7 @@ nav a{
   background-color: #ff605c;
 }
 .bg-green {
-  background-color: #00e89f;
+  background-color: #07e09e;
 }
 .bg-black {
   background-color: #2c3036;
@@ -181,9 +181,9 @@ nav a{
   border-radius: 8px;
   transition: 0.4s;
 }
-.widget:hover {
+/* .widget:hover {
   opacity: 0.8
-}
+} */
 .boldish {
   font-weight: 600;
 }
@@ -196,12 +196,35 @@ img.icon {
   width: 2.5rem;
   padding: 0rem 0.4rem;
 }
+#webLogos {
+  min-height: 13rem;
+  max-height: 21rem;
+}
 /* .header-topic {
   background-size: cover;
   background-position: center;
 } */
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
   
 }
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 90vw;
+  }
+  #topics {
+    height: 15rem;
+    transition: all 0.3s;
+  }
+  .active {
+    color: #007bff;
+    border-bottom: 0px solid #007bff;
+    transition: 0.25s all;
+  }
+  .nav-item a:hover {
+    border-bottom: 0px solid;
+    transition: 0.25s all;
+    text-decoration: none;
+  }
 
+}

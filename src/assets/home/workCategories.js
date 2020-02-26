@@ -27,8 +27,8 @@ let workCategory = categories.map((category) => {
           <Work />
         </Route>
       </Switch>
-      {/* Add transitiongroup and csstransitions */}
     </React.Fragment>
+
   })
 
   export default workCategory;

@@ -6,6 +6,7 @@ import bootstrap from '../../img/bootstrap-brands.svg';
 import javascript from '../../img/js-brands.svg';
 import php from '../../img/php-brands.svg';
 import mysql from '../../img/database-solid.svg'
+import adobe from '../../img/adobe-brands.svg'
 
 
 const web = "web"
@@ -28,15 +29,17 @@ const works = [
         mainImg: 'railpix.png',
         title:'Content Management System',
         topic:'RailPix',
+        url:'rail-pix',
         objective: 'To create a content management system using PHP / MySQL with CRUD functionalities',
         process:
-            'The concept of the project was open-ended as long as it meets the requirements. I wanted to create a project that tied into what I enjoy in my free time. ',
+            'The concept of the project was open-ended as long as it meets the requirements. I wanted to create a project that tied into what I enjoy in my free time, which was documenting freight trains',
         result:'As a result, I built a photo tracking CMS plateform for tracking trains and its documented location',
         category: web,
         subCategory: webDev,
         primary: true,
         tools: [bootstrap, php, mysql, javascript],
         supportImg: true,
+        listImgs: ['railpix1.png, railpix2.png, railpix3.png'],
         detailId: 1,
         githubRepo: true,
         githubLink: ''
@@ -45,6 +48,7 @@ const works = [
         mainImg: 'robotics.png',
         title:'Website Design & Development',
         topic:'Intuitive Robotics',
+        url:'robotics',
         objective: 'To create a responsive design website with PHP and Javascript functionalities',
         process:'Talk about me and sam discussing starting a little company',
         result:'',
@@ -53,6 +57,7 @@ const works = [
         primary: true,
         tools: [html, css, bootstrap, javascript],
         supportImg: true,
+        listImgs: ['robotics1.png, robotics2.png, robotics3.png'],
         detailId: 2,
         githubRepo: true,
         githubLink: ''
@@ -105,6 +110,7 @@ const works = [
         mainImg: 'reactlayout.png',
         title:'React UI Web Application',
         topic:'React Layout',
+        url:'react-layout',
         description: '',
         objective: 'Practicing to use React.JS Web Application involving state and props',
         process:'',
@@ -122,6 +128,7 @@ const works = [
         mainImg: 'concept.png',
         title:'UX Design and Web Development',
         topic:'Writers Block',
+        url:'writers-block',
         description: '',
         objective: 'Implement UX practices with classmates while creating a website w/ responsive design',
         process:'',
@@ -142,6 +149,7 @@ const works = [
         mainImg: 'adventure.png',
         title:'Choose Your Adventure Project',
         topic:'Day Dream',
+        url:'day-dream',
         description: '',
         objective: 'To lean how to use Javascript with conditional logic, seperation of concerns, closures and MVC practices',
         process:'',
@@ -162,6 +170,7 @@ const works = [
         mainImg: 'herbie.png',
         title:'Landing Pages',
         topic:'Web Design',
+        url:'web-design',
         description: '',
         objective: 'To learn how to create visuals for landing pages that can be turned be created in development',
         process:'',
@@ -169,7 +178,7 @@ const works = [
         category: web,
         subCategory: webDesign,
         primary: false,
-        tools: [html, css],
+        tools: [adobe],
         supportImg: true,
         githubRepo: true,
         githubLink: ''

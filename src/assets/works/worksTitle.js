@@ -4,7 +4,7 @@ import {
   useParams
 } from "react-router-dom";
 import categories from '../home/category'
-// import Works from './works.js';
+
 
 export default function WorkTitle() {
   let { subId } = useParams();
@@ -18,9 +18,7 @@ export default function WorkTitle() {
       <h1 className="font-weight-bolder pt-5 text-dark">{subId.toUpperCase()}</h1>
       <h3 className="text-secondary">{title}</h3>
     </div>
-    {/* <section>
-      <Works />
-    </section> */}
+
   </React.Fragment>
 
 
