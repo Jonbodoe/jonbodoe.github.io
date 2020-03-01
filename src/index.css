@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Titillium Web', sans-serif;
-  /* font-family: 'Work Sans', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f8f9fa;
@@ -13,7 +11,6 @@ nav {
 }
 footer {
   overflow: hidden;
-  /* height: 10rem; */
 }
 p {
   font-weight: 400;
