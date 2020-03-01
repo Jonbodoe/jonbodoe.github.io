@@ -19,6 +19,10 @@ p {
   position: absolute;
 }
 
+.overflow {
+  overflow: hidden;
+}
+
 #heading {
   height: 92vh;
   width: 100vw;

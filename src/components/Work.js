@@ -34,7 +34,7 @@ function Work() {
           <WorkTitle />
         </Route>
       </Switch>
-      <div id="topics" className="row">
+      <div id="topics" className="row overflow">
         {categoryLinks}
       </div>
       <Route path='/works/:type'>
