@@ -16,7 +16,7 @@ export default function WebWidget() {
                 if (element.category === 'web') {
                     // console.log(element)
                     return <React.Fragment key={element.mainImg}>
-                            <div className="container my-5 shadow-md widget bg-white" >
+                            <div className="container my-5 shadow widget bg-white" >
                                 <div className="row">
                                     <img className="img-fluid col-sm-8" src={require(`../../img/${element.mainImg}`)} alt={element.mainImg} key={element.mainImg} />
                                     <div className="col-sm-4 d-flex align-self-center px-sm-4">

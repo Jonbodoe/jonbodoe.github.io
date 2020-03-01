@@ -17,6 +17,7 @@ p {
 }
 .page {
   position: absolute;
+  overflow: hidden;
 }
 
 .overflow {
@@ -225,11 +226,15 @@ img.icon {
   background-size: cover;
   background-position: center;
 }
-#intro p, #intro div{
-  font-size: 1.2rem;
+#intro p, #intro div, .detail{
+  font-size: 1.1rem;
 }
 #intro h2 {
   margin:0;
+}
+.spacer {
+  height: 4rem;
+
 }
 
 
@@ -237,6 +242,9 @@ img.icon {
   
 }
 @media (max-width: 991.98px) {
+  .spacer {
+    height: 0rem;
+  }
   .container {
     max-width: 90vw;
   }
