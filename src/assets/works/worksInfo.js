@@ -6,7 +6,7 @@ import bootstrap from '../../img/bootstrap-brands.svg';
 import javascript from '../../img/js-brands.svg';
 import php from '../../img/php-brands.svg';
 import mysql from '../../img/database-solid.svg'
-import adobe from '../../img/adobe-brands.svg'
+import adobe from '../../img/adobe.svg'
 
 
 const web = "web"
@@ -210,6 +210,7 @@ const works = [
         mainImg: 'itDontStop.jpg',
         title:'',
         topic:'',
+        url:'',
         description: '',
         objective: '',
         process:'',
@@ -226,6 +227,7 @@ const works = [
         mainImg: 'fitc.jpg',
         title:'',
         topic:'',
+        url:'',
         description: '',
         objective: '',
         process:'',
@@ -242,6 +244,7 @@ const works = [
         mainImg: 'life.jpg',
         title:'',
         topic:'',
+        url:'',
         description: '',
         objective: '',
         process:'',
@@ -258,6 +261,7 @@ const works = [
         mainImg: 'freight.jpg',
         title:'',
         topic:'',
+        url:'',
         description: '',
         objective: '',
         process:'',
@@ -274,6 +278,7 @@ const works = [
         mainImg: 'newsBins.jpg',
         title:'',
         topic:'',
+        url:'',
         description: '',
         objective: '',
         process:'',
@@ -290,6 +295,7 @@ const works = [
         mainImg: 'deskCode.jpg',
         title:'',
         topic:'',
+        url:'',
         description: '',
         objective: '',
         process:'',
@@ -306,6 +312,7 @@ const works = [
         mainImg: 'septa.jpg',
         title:'',
         topic:'',
+        url:'',
         description: '',
         objective: '',
         process:'',

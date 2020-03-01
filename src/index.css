@@ -134,13 +134,19 @@ nav a{
 .bg-orange {
   background-color: #ff605c;
 }
+.bg-orange:hover {
+  background-color: #d94541;
+}
 .bg-green {
   background-color: #07e09e;
+}
+.bg-green:hover {
+  background-color: #02b880;
 }
 .bg-black {
   background-color: #2c3036;
 }
-#topics {
+#topics a{
   height: 5rem;
   transition: all 0.3s;
 }
@@ -150,6 +156,10 @@ nav a{
 .category-section:hover {
   transition: 0.5s;
   opacity: 0.8;
+}
+.no-padding{
+  padding-left:0;
+  padding-right:0;
 }
 .border-bottom-white {
   border-bottom: 5px solid;
@@ -181,6 +191,9 @@ nav a{
   border-radius: 8px;
   transition: 0.4s;
 }
+.rounds {
+  border-radius: 8px;
+}
 /* .widget:hover {
   opacity: 0.8
 } */
@@ -193,17 +206,31 @@ nav a{
   padding: 0.6rem;
 }
 img.icon {
-  width: 2.5rem;
+  width: 2.7rem;
   padding: 0rem 0.4rem;
 }
 #webLogos {
   min-height: 13rem;
   max-height: 21rem;
 }
-/* .header-topic {
+
+.graphics {
+  background-image: url('./img/airbnb-01.png');
   background-size: cover;
   background-position: center;
-} */
+}
+.illustration {
+
+  background-size: cover;
+  background-position: center;
+}
+#intro p, #intro div{
+  font-size: 1.2rem;
+}
+#intro h2 {
+  margin:0;
+}
+
 
 @media (min-width: 600px) {
   

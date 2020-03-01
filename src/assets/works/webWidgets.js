@@ -22,7 +22,7 @@ export default function WebWidget() {
                                     <div className="col-sm-4 d-flex align-self-center px-sm-4">
                                         <div>
                                             <h2 className="font-weight-bold pt-3">{element.topic}</h2>
-                                            <h6 className="boldish text-primary">{element.title}</h6>
+                                            <h3 className="boldish text-primary">{element.title}</h3>
                                             <p>{element.objective}</p>
                                             <div className="boldish text-secondary">Tools:</div>
                                             {

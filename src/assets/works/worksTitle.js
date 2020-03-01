@@ -14,9 +14,11 @@ export default function WorkTitle() {
     </React.Fragment>
   });
   return <React.Fragment>
-    <div className="text-center py-5 header-topic">
-      <h1 className="font-weight-bolder pt-5 text-dark">{subId.toUpperCase()}</h1>
-      <h3 className="text-secondary">{title}</h3>
+    <div className={subId ? subId : ''}>
+      <div className='text-center py-5 header-topic'>
+        <h1 className="font-weight-bolder pt-5 text-dark">{subId.toUpperCase()}</h1>
+        <h2 className="text-secondary">{title}</h2>
+      </div>
     </div>
 
   </React.Fragment>

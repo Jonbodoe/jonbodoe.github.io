@@ -23,7 +23,7 @@ let workCategory = categories.map((category) => {
           </div>
       </Link>
       <Switch>
-        <Route path="/works">
+        <Route path='/works'>
           <Work />
         </Route>
       </Switch>

@@ -13,6 +13,7 @@ import categories from "../assets/home/category.js"
 import Works from "../assets/works/works"
 
 function Work() {
+  console.log('work component')
   // let { path, url } = useRouteMatch()
   let categoryLinks = categories.map((category => {
     return <React.Fragment key={category.title}>
