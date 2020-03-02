@@ -27,6 +27,10 @@ p {
   overflow: hidden;
 }
 
+.product {
+  font-size: 3rem;
+}
+
 #heading {
   height: 92vh;
   width: 100vw;

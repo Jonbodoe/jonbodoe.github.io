@@ -26,7 +26,7 @@ const App = ({ location }) => {
   console.log(location)
   return (
     <div>
-      <ScrollToTop/>
+      {/* <ScrollToTop/> */}
       <NavBar />
       <Route render={({location}) => (
         <TransitionGroup>

@@ -1,55 +1,13 @@
 
 import React, {
-    // useState, useEffect 
 } from 'react';
 import '../App.css';
 import {
-    // BrowserRouter as Router,
-    // Switch,
-    // Route,
     NavLink,
     Link,
 } from "react-router-dom";
 import jonathan from "../img/jonathan.png"
-// import About from "../components/About"
-// import Work from "../components/Work"
-// import Home from "../components/Home"
-// import { render } from '@testing-library/react';
-// function logScrollDirection() {
-//     var previous = window.scrollY;
-//     window.addEventListener('scroll', function(){
-//         window.scrollY > previous ? console.log('down') : console.log('up');
-//         previous = window.scrollY;
-//     });
-// }
 export default function NavBar() {
-    // constructor(props) {
-    //     super(props)
-    // }
-    // let prev = window.scrollY;
-    // const [nav, showNav] = useState(false);
-
-    // useEffect(()=> {
-    //     // function handleNavChange(change) {
-
-    //     window.addEventListener('scroll', function (e) {
-    //         if (prev > e.currentTarget.scrollY) {
-    //             // showNav(true)
-    //             // console.log(prev);
-    //             console.log("scrolling up");
-
-
-    //         } else if (prev < e.currentTarget.scrollY) {
-    //             console.log("scrolling down");
-    //             // showNav(true)
-    //             // console.log(prev);
-
-    //         }
-    //         prev = e.currentTarget.scrollY;
-    //     });
-    // // }
-    // })
-
     return (
         <header>
         <nav className="navbar navbar-expand-lg navbar-light bg-light d-flex px-5  py-2 fixed-top shadow-sm">
@@ -78,7 +36,7 @@ export default function NavBar() {
         </header>
     )
 }
-// }
+
 
 
 

@@ -85,11 +85,12 @@ export default function SingleView() {
     <section className="container-fluid py-5 my-5">
       <div className="row">
         <div className="col-md-4 boldish d-flex justify-content-center">
-          <div className="align-self-center p-sm-5">
+          <div className="align-self-center p-sm-5 bg-primary rounds w-100">
             <div className="py-4">
               {/* <h3 className="font-weight-bold text-primary"></h3> */}
-              <h3 className="text-secondary">Product</h3>
-              <div>
+              <h3 className="text-white font-weight-bolder product">Product</h3>
+              <h3 className="text-dark boldish">See how it works!</h3>
+              <div className="text-light">
                 <div>Github Repository <a href={work.githubRepo? work.githubLink: ''} target="_blank" rel="noopener noreferrer">Link</a></div>
                 <div>Railpix Website <a href={work.website? work.website: ''} target="_blank" rel="noopener noreferrer">Link</a></div>
               </div>
