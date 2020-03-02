@@ -6,6 +6,9 @@ body {
   background-color: #f8f9fa;
   
 }
+.text-serif {
+  font-family: 'Alegreya';
+}
 nav {
   position: relative;
 }
@@ -171,7 +174,7 @@ nav a{
   box-shadow: -40px 30px #ff6e3b;
 }
 .box-shadow-primary {
-  box-shadow: 30px -40px #007bff;
+  box-shadow: -40px 30px #007bff;
 }
 .fade-appear,
 .fade-enter {
@@ -210,6 +213,10 @@ nav a{
 img.icon {
   width: 2.7rem;
   padding: 0rem 0.4rem;
+}
+img.icon-lg {
+  width: 4.7rem;
+  padding: 0rem 0.8rem;
 }
 #webLogos {
   min-height: 13rem;

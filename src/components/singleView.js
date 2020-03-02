@@ -31,13 +31,9 @@ export default function SingleView() {
               <div className="boldish text-secondary pb-1">Tools Used:</div>
               <div>
                 {work.tools.map((icon, index) => {
-                  return <img className="icon" src={icon} alt="web languages" key={index} />
+                  return <img className="icon-lg" src={icon} alt="web languages" key={index} />
                 })}
               </div><br/>
-              <div>
-                <div>Github Repository <a href={work.githubRepo? work.githubLink: ''} target="_blank" rel="noopener noreferrer">Link</a></div>
-                <div>Railpix Website <a href={work.website? work.website: ''} target="_blank" rel="noopener noreferrer">Link</a></div>
-              </div>
             </div>
           </div>
         </div>
@@ -93,6 +89,10 @@ export default function SingleView() {
             <div className="py-4">
               {/* <h3 className="font-weight-bold text-primary"></h3> */}
               <h3 className="text-secondary">Product</h3>
+              <div>
+                <div>Github Repository <a href={work.githubRepo? work.githubLink: ''} target="_blank" rel="noopener noreferrer">Link</a></div>
+                <div>Railpix Website <a href={work.website? work.website: ''} target="_blank" rel="noopener noreferrer">Link</a></div>
+              </div>
             </div>
           </div>
         </div>
