@@ -92,7 +92,7 @@ export default function SingleView() {
               <h3 className="text-secondary boldish">See how it works!</h3>
               <div className="text-dark">
                 <div>Github Repository <a className="" href={work.githubRepo? work.githubLink: ''} target="_blank" rel="noopener noreferrer">Link</a></div>
-                <div>Railpix Website <a className="" href={work.website? work.website: ''} target="_blank" rel="noopener noreferrer">Link</a></div>
+                <div>{work.topic} Website <a className="" href={work.website? work.website: ''} target="_blank" rel="noopener noreferrer">Link</a></div>
               </div>
             </div>
           </div>

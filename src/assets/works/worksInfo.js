@@ -60,7 +60,7 @@ const works = [
         secondaryImg:'app.png',
         result: '',
         ternaryImg: 'app.png',
-        resultImg: '',
+        resultImg: 'app.png',
         category: web,
         subCategory: webDev,
         primary: true,
