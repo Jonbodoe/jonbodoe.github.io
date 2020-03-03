@@ -10,8 +10,7 @@ const Home = () => {
   // works.forEach(work => console.log(work.mainImg))
 
   return <React.Fragment>
-    <main>
-    <div className="page">
+    <div className="page container-fluid no-padding">
       <section id="heading" className="container-fluid p-5 shadow-md">
         <div className="row h-100">
           <div className="col-md-8">
@@ -78,7 +77,7 @@ const Home = () => {
       </section>
       <Footer />
     </div>
-    </main>
+
   </React.Fragment>;
 }
 export default Home;

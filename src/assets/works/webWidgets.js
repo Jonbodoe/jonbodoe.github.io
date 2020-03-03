@@ -18,8 +18,8 @@ export default function WebWidget() {
                     return <React.Fragment key={element.mainImg}>
                             <div className="container my-5 shadow widget bg-white" >
                                 <div className="row">
-                                    <img className="img-fluid col-sm-8" src={require(`../../img/${element.mainImg}`)} alt={element.mainImg} key={element.mainImg} />
-                                    <div className="col-sm-4 d-flex align-self-center px-sm-4">
+                                    <img className="img-fluid col-lg-8" src={require(`../../img/${element.mainImg}`)} alt={element.mainImg} key={element.mainImg} />
+                                    <div className="col-lg-4 d-flex align-self-center px-sm-4">
                                         <div>
                                             <h2 className="font-weight-bold pt-3">{element.topic}</h2>
                                             <h3 className="boldish text-primary">{element.title}</h3>

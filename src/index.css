@@ -195,7 +195,11 @@ nav a{
   /* background-color:black; */
   opacity: 0;
 }
-
+.category-text{
+  padding: 0.5rem 0rem;
+  font-size: 18px;
+  margin: 0;
+}
 .widget {
   border-radius: 8px;
   transition: 0.4s;
@@ -232,6 +236,11 @@ img.icon-lg {
   background-size: cover;
   background-position: center;
 }
+.web {
+  background-image: url('./img/atcq1.png');
+  background-size: cover;
+  background-position: center;
+}
 .illustration {
 
   background-size: cover;
@@ -249,8 +258,11 @@ img.icon-lg {
 }
 
 
-@media (min-width: 600px) {
-  
+@media (max-width: 600px) {
+  #topics {
+    height: 15rem;
+    transition: all 0.3s;
+  }
 }
 @media (max-width: 991.98px) {
   .spacer {
@@ -259,10 +271,7 @@ img.icon-lg {
   .container {
     max-width: 90vw;
   }
-  #topics {
-    height: 15rem;
-    transition: all 0.3s;
-  }
+
   .active {
     color: #007bff;
     border-bottom: 0px solid #007bff;

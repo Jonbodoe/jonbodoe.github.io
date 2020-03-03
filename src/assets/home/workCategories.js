@@ -19,7 +19,7 @@ let workCategory = categories.map((category) => {
             <div id={category.id} className="category"></div>
           </div>
           <div className={category.color + ' py-3'}>
-          <p className="text-center text-white boldish">{category.title}</p>
+          <p className="text-center text-white boldish category-text">{category.title}</p>
           </div>
       </Link>
       <Switch>
