@@ -11,7 +11,7 @@ import adobe from '../../img/adobe.svg'
 
 const web = "web"
 const webDev = 'Web Development';
-const webDesign = 'Web Design'
+// const webDesign = 'Web Design'
 
 const illustration = 'illustration';
 const graphic = 'graphics';
@@ -140,14 +140,13 @@ const works = [
         title: 'UX Design and Web Development',
         topic: 'Writers Block',
         url: 'writers-block',
-        description: '',
         objective: 'Implement UX practices with classmates while creating a website w/ responsive design',
-        process: '',
-        design: '',
-        development: '',
-        secondaryImg:'',
-        ternaryImg: '',
-        resultImg: '',
+        process: 'The concept of this project was to use some UX processes when designing and developing the website. The project is a two part project where you are creating two sites, one showing the process of creating a website and the other is the finished website product itself. The website will show a list of images I’ve taken during my high school days of exploring the city',
+        design: 'When creating this site, I had to make sure my designed wire frames were not overly complicated. I had to make sure that the designs I created is doable with a reasonable amount of CSS written. ',
+        development: 'This class was a introduction to basic web design and development, using languages such as HTML, CSS and some JavaScript. We had to make sure our websites fit the criteria of having sound HTML structures as well as creating a responsive website',
+        secondaryImg:'concept.png',
+        ternaryImg: 'concept.png',
+        resultImg: 'concept.png',
         category: web,
         subCategory: webDev,
         primary: true,
@@ -166,13 +165,13 @@ const works = [
         topic: 'Day Dream',
         url: 'day-dream',
         description: '',
-        objective: 'To lean how to use Javascript with conditional logic, seperation of concerns, closures and MVC practices',
-        process: '',
-        design: '',
-        development: '',
-        secondaryImg:'',
-        ternaryImg: '',
-        resultImg: '',
+        objective: 'To use Javascript basic conventions with MVC practices',
+        process: 'For this project I wanted to use JavaScript to create an interactive story of Pixel images I’ve created. I wanted to experiment what JavaScript was capable of doing outside of just basic website interactivity. ',
+        design: 'Creating each pixel image was quite difficult as developing the project in some cases. I wanted to maintain a retro gaming style so I had to make sure the styles of the images as well as the website itself matched the style',
+        development: 'Previously I did a similar project of this in my introduction to JavaScript. However I wanted to use some of the practices I’ve learned over the years and recreate it more efficiently. I applied a MVC-like practice, reduce redundancies,  as well as trying to reuse components / functions more ',
+        secondaryImg:'adventure.png',
+        ternaryImg: 'adventure.png',
+        resultImg: 'adventure.png',
         category: web,
         subCategory: webDev,
         primary: true,
@@ -185,27 +184,27 @@ const works = [
 
     // 
 
-    {
-        mainImg: 'herbie.png',
-        title: 'Landing Pages',
-        topic: 'Web Design',
-        url: 'web-design',
-        description: '',
-        objective: 'To learn how to create visuals for landing pages that can be turned be created in development',
-        process: '',
-        design: '',
-        development: '',
-        secondaryImg:'',
-        ternaryImg: '',
-        resultImg: '',
-        category: web,
-        subCategory: webDesign,
-        primary: false,
-        tools: [adobe],
-        supportImg: true,
-        githubRepo: true,
-        githubLink: ''
-    },
+    // {
+    //     mainImg: 'herbie.png',
+    //     title: 'Landing Pages',
+    //     topic: 'Web Design',
+    //     url: 'web-design',
+    //     description: '',
+    //     objective: 'To learn how to create visuals for landing pages that can be turned be created in development',
+    //     process: '',
+    //     design: '',
+    //     development: '',
+    //     secondaryImg:'',
+    //     ternaryImg: '',
+    //     resultImg: '',
+    //     category: web,
+    //     subCategory: webDesign,
+    //     primary: false,
+    //     tools: [adobe],
+    //     supportImg: true,
+    //     githubRepo: true,
+    //     githubLink: ''
+    // },
     // {
     //     mainImg: 'newsBins.jpg',
     //     title:'',

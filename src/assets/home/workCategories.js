@@ -10,8 +10,6 @@ import {
   // withRouter,
 } from "react-router-dom";
 
-
-
 let workCategory = categories.map((category) => {
     return <React.Fragment key={category.title}>
       <Link className="col-sm-4 category-section shadow-md" to={`/works/${category.id}`}>

@@ -4,12 +4,12 @@ import '../App.css';
 
 export default function Footer() {
   return (
-    <footer className="bg-white text-dark container-fluid pb-4">
+    <footer className="text-dark container-fluid pb-4">
       <div className="row d-flex justify-content-center">
           <div className="align-self-center">
             <img src={logo} className="App-logo" alt="logo" />
             <div className="">
-              <p className="text-center">Hand built with React.js<br/>Jonathan Le © 2020</p>
+              <p className="text-center">Hand-built with React.js<br/>Jonathan Le © 2020</p>
             </div>
           </div>
       </div>
