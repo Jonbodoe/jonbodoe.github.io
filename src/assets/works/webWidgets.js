@@ -42,7 +42,7 @@ export default function WebWidget() {
                             {/* <Switch>
                                 <Route path={`/works/${element.category}/:view`} component={SingleView}/>
                             </Switch> */}
-                        </React.Fragment>
+                    </React.Fragment>
                 }
             })
         }

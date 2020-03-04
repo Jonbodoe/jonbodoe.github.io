@@ -1,7 +1,7 @@
 
 const categories = [
     {
-        title: 'Web Development & Design',
+        title: 'Web Development',
         id: 'web',
         subCategory: ['Development', 'Web Design'],
         img: '../img/atcqBG.png',

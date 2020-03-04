@@ -51,7 +51,7 @@ export default function SingleView() {
             </div>
           </div>
           <div className="col-md-7 text-dark">
-            <img className="img-fluid rounds" src={require(`../img/${work.secondaryImg}`)} alt={work.title + ' website image of home screen before login'} />
+            <img className="img-fluid rounds shadow-md" src={require(`../img/${work.secondaryImg}`)} alt={work.title + ' website image of home screen before login'} />
             {/* <p className="py-3">{work.result}</p> */}
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function SingleView() {
       <section className="px-sm-3 py-5">
         <div className="row">
           <div className="col-md-7 no-padding">
-            <img className="img-fluid rounds" src={require(`../img/${work.ternaryImg}`)} alt={work.title + ' website image of google maps'} />
+            <img className="img-fluid rounds shadow-md" src={require(`../img/${work.ternaryImg}`)} alt={work.title + ' website image of google maps'} />
           </div>
           <div className="col-md-5 boldish d-flex justify-content-center">
             <div className="align-self-center p-sm-5">

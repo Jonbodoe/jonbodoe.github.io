@@ -18,7 +18,7 @@ const Home = () => {
           <div className="col-md-4 d-flex justify-content-center h-100 ">
             <div className="align-self-center text-white py-5">
               <h1 className="font-weight-bolder border-bottom-white">Jonathan Le</h1>
-              <h3 className="text-light">
+              <h3 className="text-secondary">
                 &lt; Web Developer & Designer /&gt;
             </h3>
             </div>

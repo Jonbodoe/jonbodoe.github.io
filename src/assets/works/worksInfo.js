@@ -56,9 +56,9 @@ const works = [
         process: 'The concept of this project was to collaborate on a website that best utilizes responsive-design using HTML, CSS, Bootstrap, and Javascript. We had 3 members collaborating on this project, myself, Lesley Stiefel, and Sam Andrews. We delegated one group leader, Sam Andrew and we worked together based on our strengths in web design and development. I primarily focused on Web development and assisted on creating visual assests.',
         design: 'With the wireframes we collaborated on how to focus on the brand image. For the homepage we took references from several start up companies, brand websites, and even portfolio pages to understand how to make an appealing homepage with the right amount of important information shown and what should be shown towards the users',
         development: 'For myself I focused with the Web Development of the project as well as assisting Lesley and Sam with website and mobile designs. This project was focused on an idea, a mobile application that helps firefighters maintain forest fires using google maps api and PWA development. With the time constraint we were only able to make a functioning website, and mobile designs, however it taught us the value of how to efficiently work towards an end goal and be accepting of each others opinions. ',
-        secondaryImg:'app.png',
-        ternaryImg: 'app.png',
-        resultImg: 'app.png',
+        secondaryImg:'robotics3.png',
+        ternaryImg: 'robotics1.png',
+        resultImg: 'robotics2.png',
         category: web,
         subCategory: webDev,
         primary: true,
@@ -123,8 +123,8 @@ const works = [
         process: 'The concept of this project is to implement what I’ve learn from React.JS into a personal project. Throughout my web development journey I wanted to learn what does it mean building UI components within a website or app. I use freeCodeCamp, Codecademy, and YouTube tutorials trying to understand how React.JS works. ',
         design: '',
         development: 'I created a layout customizer on the website that allows users to change color palettes, typefaces, and the content itself dynamically on the page. I had to understand how React Components work using JSX, state and props to pass on to other components. It also gave me a brief introduction of how lifecycles work by using the lifecycle method “componentdidmount”. Despite some of its redundancies and some violations of mutating state directly, I learned how to use best practices moving forward by reading more into the documentation and implementing those changes in current projects.',
-        secondaryImg:'reactlayout.png',
-        ternaryImg: 'reactlayout.png',
+        secondaryImg:'reactlayout1.png',
+        ternaryImg: 'reactlayout2.png',
         resultImg: 'reactlayout.png',
         category: web,
         subCategory: webDev,
@@ -133,7 +133,8 @@ const works = [
         supportImg: true,
         detailId: null,
         githubRepo: true,
-        githubLink: ''
+        githubLink: 'https://github.com/Jonbodoe/ReactLayout',
+        website: 'https://jonbodoe.github.io/ReactLayout/'
     },
     {
         mainImg: 'concept.png',
@@ -144,9 +145,9 @@ const works = [
         process: 'The concept of this project was to use some UX processes when designing and developing the website. The project is a two part project where you are creating two sites, one showing the process of creating a website and the other is the finished website product itself. The website will show a list of images I’ve taken during my high school days of exploring the city',
         design: 'When creating this site, I had to make sure my designed wire frames were not overly complicated. I had to make sure that the designs I created is doable with a reasonable amount of CSS written. ',
         development: 'This class was a introduction to basic web design and development, using languages such as HTML, CSS and some JavaScript. We had to make sure our websites fit the criteria of having sound HTML structures as well as creating a responsive website',
-        secondaryImg:'concept.png',
-        ternaryImg: 'concept.png',
-        resultImg: 'concept.png',
+        secondaryImg:'concept1.png',
+        ternaryImg: 'concept5.png',
+        resultImg: 'concept2.png',
         category: web,
         subCategory: webDev,
         primary: true,
@@ -154,7 +155,8 @@ const works = [
         supportImg: true,
         detailId: 3,
         githubRepo: true,
-        githubLink: ''
+        githubLink: 'https://github.com/Jonbodoe/Process-Project',
+        website:'https://jonbodoe.github.io/Process-Project/indexprocess.html'
     },
 
     // Need to Redesign //
@@ -164,7 +166,6 @@ const works = [
         title: 'Choose Your Adventure Project',
         topic: 'Day Dream',
         url: 'day-dream',
-        description: '',
         objective: 'To use Javascript basic conventions with MVC practices',
         process: 'For this project I wanted to use JavaScript to create an interactive story of Pixel images I’ve created. I wanted to experiment what JavaScript was capable of doing outside of just basic website interactivity. ',
         design: 'Creating each pixel image was quite difficult as developing the project in some cases. I wanted to maintain a retro gaming style so I had to make sure the styles of the images as well as the website itself matched the style',
@@ -182,57 +183,13 @@ const works = [
         githubLink: ''
     },
 
-    // 
-
-    // {
-    //     mainImg: 'herbie.png',
-    //     title: 'Landing Pages',
-    //     topic: 'Web Design',
-    //     url: 'web-design',
-    //     description: '',
-    //     objective: 'To learn how to create visuals for landing pages that can be turned be created in development',
-    //     process: '',
-    //     design: '',
-    //     development: '',
-    //     secondaryImg:'',
-    //     ternaryImg: '',
-    //     resultImg: '',
-    //     category: web,
-    //     subCategory: webDesign,
-    //     primary: false,
-    //     tools: [adobe],
-    //     supportImg: true,
-    //     githubRepo: true,
-    //     githubLink: ''
-    // },
-    // {
-    //     mainImg: 'newsBins.jpg',
-    //     title:'',
-    //     topic:'',
-    //     description: '',
-    //     objective: '',
-    //     process:'',
-    //     result:'',
-    //     category: web,
-    //     subCategory: webDesign,
-    //     primary: false,
-    //     tools: 'Illustrator',
-    //     supportImg: true,
-    //     githubRepo: true,
-    //     githubLink: ''
-    // },
-
 
     // GRAPHICSSSSSSSs
-
-
-
-    // NOT COMPLETED
     {
-        mainImg: 'itDontStop.jpg',
-        title: '',
+        mainImg: 'herbie.png',
+        title: 'Web Landing Page',
         topic: '',
-        url: '',
+        url: 'web-design',
         description: '',
         objective: '',
         process: '',
@@ -241,14 +198,13 @@ const works = [
         primary: false,
         tools: 'Illustrator',
         supportImg: false,
-        githubRepo: null,
-        githubLink: ''
     },
     {
-        mainImg: 'fitc.jpg',
+        mainImg: 'fitc.png',
         title: '',
         topic: '',
-        url: '',
+        url: 'fitc',
+        smallWidget: true,
         description: '',
         objective: '',
         process: '',
@@ -256,79 +212,16 @@ const works = [
         subCategory: typography,
         primary: false,
         tools: 'Illustrator',
-        supportImg: false,
-        githubRepo: null,
-        githubLink: ''
+        supportImg: true,
+        secondImg: 'fitc1.png',
+        thirdImg: 'fitc2.png',
     },
     {
-        mainImg: 'life.jpg',
+        mainImg: 'septa.png',
         title: '',
         topic: '',
-        url: '',
-        description: '',
-        objective: '',
-        process: '',
-        category: graphic,
-        subCategory: concept,
-        primary: false,
-        tools: 'Illustrator',
-        supportImg: false,
-        githubRepo: null,
-        githubLink: ''
-    },
-    {
-        mainImg: 'freight.jpg',
-        title: '',
-        topic: '',
-        url: '',
-        description: '',
-        objective: '',
-        process: '',
-        category: graphic,
-        subCategory: concept,
-        primary: false,
-        tools: 'Illustrator',
-        supportImg: false,
-        githubRepo: null,
-        githubLink: ''
-    },
-    {
-        mainImg: 'newsBins.jpg',
-        title: '',
-        topic: '',
-        url: '',
-        description: '',
-        objective: '',
-        process: '',
-        category: graphic,
-        subCategory: concept,
-        primary: false,
-        tools: 'Illustrator',
-        supportImg: false,
-        githubRepo: null,
-        githubLink: ''
-    },
-    {
-        mainImg: 'deskCode.jpg',
-        title: '',
-        topic: '',
-        url: '',
-        description: '',
-        objective: '',
-        process: '',
-        category: graphic,
-        subCategory: concept,
-        primary: false,
-        tools: 'Illustrator',
-        supportImg: false,
-        githubRepo: null,
-        githubLink: ''
-    },
-    {
-        mainImg: 'septa.jpg',
-        title: '',
-        topic: '',
-        url: '',
+        smallWidget: true,
+        url: 'septa',
         description: '',
         objective: '',
         process: '',
@@ -337,14 +230,38 @@ const works = [
         primary: true,
         tools: 'Illustrator',
         supportImg: true,
-        githubRepo: null,
-        githubLink: ''
+    },
+    {
+        mainImg: 'life.jpg',
+        title: 'Concept Graphics',
+        topic: '',
+        smallWidget: true,
+        url: 'concept-graphics',
+        description: '',
+        objective: '',
+        process: '',
+        category: graphic,
+        subCategory: concept,
+        primary: false,
+        tools: 'Illustrator',
+        supportImg: true,
+        secondImg: 'freight.png',
+        thirdImg: 'codeDesk.png',
+        fourthImg: 'newsBins.png',
+        fifthImg: 'airbnb.png'     
     },
 
 
     // Illustrationssnnnsnsnnsnsns
-
-
+    {
+        mainImg: 'stairs.jpg',
+        description: '',
+        category: illustration,
+        subCategory: paint,
+        primary: false,
+        tools: 'Cardstock paper',
+        supportImg: false,
+    },
     {
         mainImg: 'shootinDice.jpg',
         description: '',
@@ -353,8 +270,6 @@ const works = [
         primary: false,
         tools: 'Masonite Board, Paint',
         supportImg: false,
-        githubRepo: null,
-        githubLink: ''
     },
     {
         mainImg: 'trainAndDragons.jpg',
@@ -364,8 +279,6 @@ const works = [
         primary: false,
         tools: 'Hardstock paper, Paint, Ink',
         supportImg: false,
-        githubRepo: null,
-        githubLink: ''
     },
     {
         mainImg: 'kodak.jpg',
@@ -375,8 +288,6 @@ const works = [
         primary: false,
         tools: 'Photoshop',
         supportImg: false,
-        githubRepo: null,
-        githubLink: ''
     },
     {
         mainImg: 'stayChill.jpg',
@@ -386,9 +297,14 @@ const works = [
         primary: false,
         tools: 'Masonite Board, Paint',
         supportImg: false,
-        githubRepo: null,
-        githubLink: ''
     },
 ]
+
 export default works;
+
+
+// Figure out design solution for graphic design
+// Wait til i get my pc back to re-do photos
+
+// PHP project needs to add redirects
 
