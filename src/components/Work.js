@@ -20,7 +20,7 @@ function Work() {
         <div className="category-container">
           <div id={category.id} className="category"></div>
         </div>
-        <div className={category.color + ' py-3'}>
+        <div className={category.color + ' py-2'}>
           <p className="text-center text-white boldish category-text">{category.title}</p>
         </div>
       </Link>
@@ -34,11 +34,11 @@ function Work() {
     </React.Fragment>
   }))
   return <React.Fragment>
-    <section className="container-fluid pt-5 mt-2 page">
+    <section className="container-fluid pt-5 mt-2 page no-padding">
       <Switch>
         <Route exact path='/works'>
-          <div className="text-center py-5">
-            <h1 className="font-weight-bolder pt-5 text-dark">Choose A Category</h1>
+          <div className="text-center py-4">
+            <h2 className="font-weight-bolder pt-5 text-dark">Choose A Category</h2>
           </div>
           <div className="row pb-3">
             {workCategory}

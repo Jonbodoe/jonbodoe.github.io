@@ -17,7 +17,7 @@ export default function WorkTitle() {
     <div className={subId ? subId : ''}>
       <div className='text-center py-5 header-topic'>
         <h1 className="font-weight-bolder pt-5 text-dark">{subId.toUpperCase()}</h1>
-        <h2 className="text-secondary">{title}</h2>
+        <h2 className="text-secondary pb-5">{title}</h2>
       </div>
     </div>
 

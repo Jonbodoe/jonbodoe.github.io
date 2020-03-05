@@ -236,11 +236,16 @@ img.icon-lg {
   background-size: cover;
   background-position: center;
 }
-/* .web {
-  background-image: url('./img/atcq.png');
+.web {
+  background-image: url('./img/deskWall.png');
   background-size: cover;
   background-position: center;
-} */
+}
+.illustration {
+  background-image: url('./img/grassWall.png');
+  background-size: cover;
+  background-position: center;
+}
 .illustration {
 
   background-size: cover;

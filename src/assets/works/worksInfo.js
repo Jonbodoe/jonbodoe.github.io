@@ -253,18 +253,19 @@ const works = [
 
 
     // Illustrationssnnnsnsnnsnsns
+    // {
+    //     mainImg: 'stairs.jpg',
+    //     description: '',
+    //     category: illustration,
+    //     subCategory: paint,
+    //     primary: false,
+    //     tools: 'Cardstock paper',
+    //     supportImg: false,
+    // },
     {
-        mainImg: 'stairs.jpg',
-        description: '',
-        category: illustration,
-        subCategory: paint,
-        primary: false,
-        tools: 'Cardstock paper',
-        supportImg: false,
-    },
-    {
-        mainImg: 'shootinDice.jpg',
-        description: '',
+        mainImg: 'dice.jpg',
+        title:'Shootin\' Dice',
+        description: 'Bad Dog and Big Bird doin\' bad things.',
         category: illustration,
         subCategory: paint,
         primary: false,
@@ -272,8 +273,9 @@ const works = [
         supportImg: false,
     },
     {
-        mainImg: 'trainAndDragons.jpg',
-        description: '',
+        mainImg: 'dragon.jpg',
+        title:'Trains N Dragons',
+        description: 'Trains and Dragons',
         category: illustration,
         subCategory: paint,
         primary: false,
@@ -281,8 +283,9 @@ const works = [
         supportImg: false,
     },
     {
-        mainImg: 'kodak.jpg',
-        description: '',
+        mainImg: 'kodak.png',
+        title: 'Kodak',
+        description: 'a boy with a wolf',
         category: illustration,
         subCategory: digital,
         primary: false,
@@ -290,8 +293,9 @@ const works = [
         supportImg: false,
     },
     {
-        mainImg: 'stayChill.jpg',
-        description: '',
+        mainImg: 'chill.jpg',
+        title: 'Stay Chill',
+        description: 'A bird throwing up a peace sign',
         category: illustration,
         subCategory: paint,
         primary: false,

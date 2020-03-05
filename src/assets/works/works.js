@@ -11,6 +11,8 @@ import {
     useParams,
 } from "react-router-dom";
 import SingleView from '../../components/singleView';
+import Illustration from '../works/illustrationWidgets'
+import GraphicWidget from '../works/graphicWidgets'
 
 export default function Works() {
     let {type} = useParams()
@@ -19,7 +21,9 @@ export default function Works() {
         {/* <WebWidgets/> */}
         {/* <Router> */}
         <Switch>
-            <Route exact path="/works/web" render={ () => <WebWidgets/>}/> 
+            <Route exact path="/works/illustration" render={ () => <Illustration/>}/> 
+            <Route exact path="/works/web" render={ () => <WebWidgets/>}/>
+            <Route exact path="/works/graphics" render={ () => <GraphicWidget/>}/>  
             <Route path="/works/web/:view" render={ () => <SingleView/>}/>
             {/* <Route exact path={`/work/${type}`} render={ () => <WebWidgets/>}/>
             <Route exact path={`/work/${type}/:view`} render={ () => <SingleView/>}/>  */}
