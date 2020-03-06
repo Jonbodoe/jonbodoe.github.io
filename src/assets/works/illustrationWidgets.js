@@ -6,7 +6,7 @@ export default function Illustration() {
         {
             works.map(element => {
                 if (element.category === 'illustration') {
-                    return <section className="py-5">
+                    return <section className="py-3">
                         <div className="container my-5 shadow widget no-padding" >
                             <img className="img-fluid rounds" src={require(`../../img/${element.mainImg}`)} alt={element.description} />
                         </div>

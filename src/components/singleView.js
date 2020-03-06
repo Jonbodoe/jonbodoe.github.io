@@ -14,8 +14,8 @@ export default function SingleView() {
   let work = infos[0]
   return <React.Fragment>
     <div className="spacer"></div>
-    <section className="no-padding p-sm-5">
-      <div className="row py-5">
+    <section className="no-padding px-sm-5">
+      <div className="row">
         <div className="col-md-7">
           <img className="img-fluid rounds no-padding shadow-md" src={require(`../img/${work.mainImg}`)} alt={work.title + ' website image'} />
         </div>

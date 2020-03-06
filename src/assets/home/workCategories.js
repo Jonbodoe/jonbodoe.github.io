@@ -1,13 +1,10 @@
 import React from 'react';
-// import logos from "../assets/home/logos";
 import categories from "./category";
 import Work from "../../components/Work"
 import {
-  // BrowserRouter as Router,
   Switch,
   Route,
   Link,
-  // withRouter,
 } from "react-router-dom";
 
 let workCategory = categories.map((category) => {

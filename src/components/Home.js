@@ -75,6 +75,9 @@ const Home = () => {
           {workCategory}
         </div>
       </section>
+      <section id="contact">
+
+      </section>
       <Footer />
     </div>
 

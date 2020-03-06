@@ -6,7 +6,6 @@ import bootstrap from '../../img/bootstrap-brands.svg';
 import javascript from '../../img/js-brands.svg';
 import php from '../../img/php-brands.svg';
 import mysql from '../../img/database-solid.svg'
-import adobe from '../../img/adobe.svg'
 
 
 const web = "web"
@@ -186,9 +185,9 @@ const works = [
 
     // GRAPHICSSSSSSSs
     {
-        mainImg: 'herbie.png',
+        mainImg: 'herbiethumb.png',
         title: 'Web Landing Page',
-        topic: '',
+        topic: 'Personal Project',
         url: 'web-design',
         description: '',
         objective: '',
@@ -200,9 +199,9 @@ const works = [
         supportImg: false,
     },
     {
-        mainImg: 'fitc.png',
-        title: '',
-        topic: '',
+        mainImg: 'fitc1.png',
+        title: 'FITC 2018 Web Development Conference',
+        topic: 'Student Project',
         url: 'fitc',
         smallWidget: true,
         description: '',
@@ -217,9 +216,9 @@ const works = [
         thirdImg: 'fitc2.png',
     },
     {
-        mainImg: 'septa.png',
-        title: '',
-        topic: '',
+        mainImg: 'septa1.png',
+        title: 'Septa Branding Guidlines',
+        topic: 'Student Project',
         smallWidget: true,
         url: 'septa',
         description: '',
@@ -234,7 +233,7 @@ const works = [
     {
         mainImg: 'life.jpg',
         title: 'Concept Graphics',
-        topic: '',
+        topic: 'Personal Project',
         smallWidget: true,
         url: 'concept-graphics',
         description: '',
