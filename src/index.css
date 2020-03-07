@@ -22,13 +22,23 @@ p {
   position: absolute;
   overflow: hidden;
 }
-
 .overflow {
   overflow: hidden;
 }
-
-.product {
-  font-size: 3rem;
+.graphics {
+  background-image: url('./img/airbnb-01.png');
+  background-size: cover;
+  background-position: center;
+}
+.web {
+  background-image: url('./img/deskWall.png');
+  background-size: cover;
+  background-position: center;
+}
+.illustration {
+  background-image: url('./img/grassWall.png');
+  background-size: cover;
+  background-position: center;
 }
 
 #heading {
@@ -62,6 +72,9 @@ nav a{
 }
 .boldish {
   font-weight:600
+}
+.product {
+  font-size: 3rem;
 }
 .active {
   color: #007bff;
@@ -231,26 +244,6 @@ img.icon-lg {
   max-height: 21rem;
 }
 
-.graphics {
-  background-image: url('./img/airbnb-01.png');
-  background-size: cover;
-  background-position: center;
-}
-.web {
-  background-image: url('./img/deskWall.png');
-  background-size: cover;
-  background-position: center;
-}
-.illustration {
-  background-image: url('./img/grassWall.png');
-  background-size: cover;
-  background-position: center;
-}
-.illustration {
-
-  background-size: cover;
-  background-position: center;
-}
 #intro p, #intro div, .detail{
   font-size: 1.1rem;
 }

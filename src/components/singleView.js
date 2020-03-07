@@ -23,6 +23,7 @@ export default function SingleView() {
           <div className="align-self-center px-4">
             <h2 className="font-weight-bold text-dark">{work.topic}</h2>
             <h3 className="text-primary">{work.title}</h3>
+            <div className="text-secondary">{work.date}</div>
             <div className="py-4">
               <div className="pt-2">
                 <div className="boldish text-secondary">Objective :</div>
@@ -33,7 +34,7 @@ export default function SingleView() {
                 {work.tools.map((icon, index) => {
                   return <img className="icon-lg" src={icon} alt="web languages" key={index} />
                 })}
-              </div><br/>
+              </div><br />
             </div>
           </div>
         </div>
@@ -91,17 +92,13 @@ export default function SingleView() {
               <h3 className="font-weight-bolder product text-primary">Product</h3>
               <h3 className="text-secondary boldish">See how it works!</h3>
               <div className="text-dark">
-                <div>Github Repository <a className="" href={work.githubRepo? work.githubLink: ''} target="_blank" rel="noopener noreferrer">Link</a></div>
-                <div>{work.topic} Website <a className="" href={work.website? work.website: ''} target="_blank" rel="noopener noreferrer">Link</a></div>
+                <div>Github Repository <a className="" href={work.githubRepo ? work.githubLink : ''} target="_blank" rel="noopener noreferrer">Link</a></div>
+                <div>{work.topic} Website <a className="" href={work.website ? work.website : ''} target="_blank" rel="noopener noreferrer">Link</a></div>
               </div>
             </div>
           </div>
         </div>
-        {/* <div className="col-sm-6"></div> */}
-        <div className="col-md-8 boldish d-flex justify-content-center p-4">
-          {/* <div className="align-self-center p-sm-5">
-            To use to the website click here!
-            </div> */}
+        <div className="col-md-8 boldish p-4">
           <img className="img-fluid rounds shadow-md" src={require(`../img/${work.resultImg}`)} alt={work.title + ' website final product'} />
         </div>
       </div>

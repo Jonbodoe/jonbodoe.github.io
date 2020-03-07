@@ -39,8 +39,9 @@ const Home = () => {
               <p className="px-md-5">
                 I am currently a Junior at Thomas Jefferson
                 Univeristy studying Web Development and Design.
-                On my free time I keep myself occupied by either
-                illustrating or learning more about web development.
+                I like having fun with the things that I build and
+                make, and I also enjoy biking and skating around 
+                the Philadelphia area!
           </p>
             </div>
           </div>
