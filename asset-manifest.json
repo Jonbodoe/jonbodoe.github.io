@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ebd730e.chunk.css",
-    "main.js": "/static/js/main.e7599cd1.chunk.js",
-    "main.js.map": "/static/js/main.e7599cd1.chunk.js.map",
+    "main.css": "/static/css/main.bd104239.chunk.css",
+    "main.js": "/static/js/main.cd562d14.chunk.js",
+    "main.js.map": "/static/js/main.cd562d14.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c7cc6e23.js",
     "runtime-main.js.map": "/static/js/runtime-main.c7cc6e23.js.map",
-    "static/js/2.333446c9.chunk.js": "/static/js/2.333446c9.chunk.js",
-    "static/js/2.333446c9.chunk.js.map": "/static/js/2.333446c9.chunk.js.map",
+    "static/js/2.9cca0a58.chunk.js": "/static/js/2.9cca0a58.chunk.js",
+    "static/js/2.9cca0a58.chunk.js.map": "/static/js/2.9cca0a58.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d11fc0cc5601ff813bfa668e403a07f0.js": "/precache-manifest.d11fc0cc5601ff813bfa668e403a07f0.js",
+    "precache-manifest.1322991bc7dcc442f44544b8125adbf5.js": "/precache-manifest.1322991bc7dcc442f44544b8125adbf5.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5ebd730e.chunk.css.map": "/static/css/main.5ebd730e.chunk.css.map",
-    "static/js/2.333446c9.chunk.js.LICENSE": "/static/js/2.333446c9.chunk.js.LICENSE",
+    "static/css/main.bd104239.chunk.css.map": "/static/css/main.bd104239.chunk.css.map",
+    "static/js/2.9cca0a58.chunk.js.LICENSE": "/static/js/2.9cca0a58.chunk.js.LICENSE",
     "static/media/Airbnb.png": "/static/media/Airbnb.e7377cb5.png",
+    "static/media/Resume.pdf": "/static/media/Resume.7c9cfdec.pdf",
     "static/media/adventure.png": "/static/media/adventure.8b009226.png",
     "static/media/airbnb-01.png": "/static/media/airbnb-01.f4038c9f.png",
     "static/media/app.png": "/static/media/app.aa4f4516.png",
@@ -26,6 +27,7 @@
     "static/media/concept2.jpg": "/static/media/concept2.95f0b8d0.jpg",
     "static/media/concept4.png": "/static/media/concept4.694261f1.png",
     "static/media/concept5.png": "/static/media/concept5.9dd95d1c.png",
+    "static/media/conceptgraphics.pdf": "/static/media/conceptgraphics.d4c61a2d.pdf",
     "static/media/css3-brands.svg": "/static/media/css3-brands.f172e732.svg",
     "static/media/database-solid.svg": "/static/media/database-solid.3f49b99c.svg",
     "static/media/deskWall.png": "/static/media/deskWall.5d68ced8.png",
@@ -48,6 +50,7 @@
     "static/media/kodakthumb.png": "/static/media/kodakthumb.03e3a767.png",
     "static/media/landing2.png": "/static/media/landing2.ab1f932e.png",
     "static/media/life.jpg": "/static/media/life.053d2258.jpg",
+    "static/media/life.png": "/static/media/life.b9d661b4.png",
     "static/media/logo.svg": "/static/media/logo.d5913bb7.svg",
     "static/media/logos.png": "/static/media/logos.4a92aaa8.png",
     "static/media/new.png": "/static/media/new.bd30b0ff.png",
@@ -81,8 +84,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c7cc6e23.js",
-    "static/js/2.333446c9.chunk.js",
-    "static/css/main.5ebd730e.chunk.css",
-    "static/js/main.e7599cd1.chunk.js"
+    "static/js/2.9cca0a58.chunk.js",
+    "static/css/main.bd104239.chunk.css",
+    "static/js/main.cd562d14.chunk.js"
   ]
 }
