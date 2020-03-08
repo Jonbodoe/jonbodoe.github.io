@@ -29,7 +29,7 @@ function Work() {
   let categoryLinks = categories.map((category => {
     return <React.Fragment key={category.title}>
       <Link className={"col-sm-4 d-flex justify-content-center py-3 " + category.color} to={`/works/${category.id}`}>
-        <h6 className="align-self-center text-white">{category.title}</h6>
+        <h6 className="align-self-center text-white boldish">{category.title}</h6>
       </Link>
     </React.Fragment>
   }))

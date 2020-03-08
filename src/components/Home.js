@@ -56,7 +56,7 @@ const Home = () => {
               <h1 className="font-weight-bolder text-white">Tools I Use</h1>
               <h3 className="font-weight-bolder text-dark">Web Languages & Frameworks</h3>
               <p className="text-light">
-                For web-based digital products, I actively use Bootstrap, JavaScript, React, JQuery, PHP and MySQL to build responsive and dynamic applications.
+                For web-based digital products, I actively use Bootstrap, JavaScript, React, JQuery, PHP and MySQL to build responsive and dynamic web applications.
             </p>
             </div>
           </div>

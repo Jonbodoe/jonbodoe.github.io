@@ -11,9 +11,9 @@ export default function GraphicWidget() {
             {
                 works.map(element => {
                     return element.category === "graphics" ?
-                        <React.Fragment>
+                        <React.Fragment key={element.url}>
                             <div className="pb-5">
-                                <div className="container shadow widget no-padding">
+                                <div className="container shadow widget">
                                     <div className="row">
                                         <div className="col-md-8">
                                             <img className="img-fluid" src={require(`../../img/${element.mainImg}`)} alt={`Img of ${element.title}`} />

@@ -4,7 +4,6 @@ import WebWidgets from './webWidgets'
 import {
     Switch,
     Route,
-    useParams,
 } from "react-router-dom";
 import SingleView from '../../components/singleView';
 import Illustration from '../works/illustrationWidgets'
@@ -17,6 +16,7 @@ export default function Works() {
             <Route exact path="/works/web" render={ () => <WebWidgets/>}/>
             <Route exact path="/works/graphics" render={ () => <GraphicWidget/>}/>  
             <Route path="/works/web/:view" render={ () => <SingleView/>}/>
+            <Route path="/works/graphics/:view" render={ () => <SingleView/>}/>
         </Switch>
         <Footer />
     </React.Fragment>

@@ -2,7 +2,6 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import {
-  // BrowserRouter as Router,
   Switch,
   Route,
   withRouter,
@@ -11,10 +10,9 @@ import {
 
 import NavBar from './components/Navbar.js';
 import Home from './components/Home.js';
-import About from './components/About.js';
+import Resume from './components/Resume.js';
 import Work from './components/Work.js';
 import ScrollToTop from './assets/etc/scrollTop';
-// import { Fragment } from 'react';
 import {
   TransitionGroup,
   CSSTransition
@@ -24,34 +22,34 @@ import {
 
 const App = ({ location }) => {
   console.log(location)
-  return (
-    <div>
-      <ScrollToTop/>
-      <NavBar />
-      <Route render={({location}) => (
-        <TransitionGroup>
-          <CSSTransition
-            key={location.key}
-            timeout={300}
-            classNames='fade'
-          >
-            <Switch location={location}>
-              <Route path={`${process.env.PUBLIC_URL}/works`}>
-                <Work />
-              </Route>
-              <Route path={`${process.env.PUBLIC_URL}/about`}>
-                <About />
-              </Route>
-              <Route path={`${process.env.PUBLIC_URL}/`}>
-                <Home />
-              </Route>
+  return (<React.Fragment>
+    <ScrollToTop />
+    {
+    location.pathname === "/resume" ? "" : <NavBar />
+    }
+    <Route render={({ location }) => (
+      <TransitionGroup>
+        <CSSTransition
+          key={location.pathname}
+          timeout={300}
+          classNames='fade'
+        >
+          <Switch location={location}>
+            <Route path={`${process.env.PUBLIC_URL}/works`}>
+              <Work />
+            </Route>
+            <Route path={`${process.env.PUBLIC_URL}/resume`}>
+              <Resume />
+            </Route>
+            <Route path={`${process.env.PUBLIC_URL}/`}>
+              <Home />
+            </Route>
+          </Switch>
+        </CSSTransition>
+      </TransitionGroup>
+    )} />
+  </React.Fragment>
 
-            </Switch>
-          </CSSTransition>
-        </TransitionGroup>
-      )} />
-      {/* </Router> */}
-    </div>
   );
 }
 

@@ -27,7 +27,7 @@ export default function NavBar() {
                         <NavLink activeClassName="active" to={`${process.env.PUBLIC_URL}/works`}>Works</NavLink>
                     </li>
                     <li className="nav-item px-3">
-                        <NavLink activeClassName="active" to={`${process.env.PUBLIC_URL}/about`}>Resume</NavLink>
+                        <NavLink activeClassName="active" to={`${process.env.PUBLIC_URL}/resume`} target="_blank">Resume</NavLink>
                     </li>
                 </ul>
             </div>
