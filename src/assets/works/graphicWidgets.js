@@ -15,11 +15,11 @@ export default function GraphicWidget() {
                             <div className="pb-5">
                                 <div className="container shadow widget">
                                     <div className="row">
-                                        <div className="col-md-8">
+                                        <div className="col-lg-8">
                                             <img className="img-fluid" src={require(`../../img/${element.mainImg}`)} alt={`Img of ${element.title}`} />
                                         </div>
-                                        <div className="col-md-4 align-self-center px-sm-4">
-                                            <h2 className="font-weight-bolder text-dark">{element.title}</h2>
+                                        <div className="col-lg-4 align-self-center px-sm-4">
+                                            <h2 className="font-weight-bolder text-dark pt-4">{element.title}</h2>
                                             <h3 className="boldish text-primary">{element.topic}</h3>
                                             <p className="text-secondary boldish">{element.level}</p>
                                             <p>{element.description}</p>

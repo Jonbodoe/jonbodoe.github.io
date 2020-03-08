@@ -1,20 +1,9 @@
-// Need to use react-router to link
 import React from 'react';
 
 import {
   useParams
 } from "react-router-dom";
 import works from "../../assets/works/worksInfo"
-// import {
-//   //   BrowserRouter as Router,
-//   Route,
-//   Switch,
-//   Link,
-//   // useParams,
-//   // useRouteMatch,
-//   // withRouter
-// } from "react-router-dom";
-// import PDFviewer from "../../components/Viewer"
 
 export default function GraphicsView() {
   let { view } = useParams();
@@ -28,12 +17,12 @@ export default function GraphicsView() {
     <div className="spacer"></div>
     <section className="no-padding px-sm-5">
       <div className="row">
-        <div className="col-md-7">
+        <div className="col-lg-7">
           <img className="img-fluid rounds no-padding shadow-md" src={require(`../../img/${work.mainImg}`)} alt={work.title + ' website image'} />
         </div>
-        <div id="intro" className="col-md-5 d-flex">
-          <div className="align-self-center px-4">
-            <h2 className="font-weight-bold text-dark">{work.title}</h2>
+        <div id="intro" className="col-lg-5 d-flex">
+          <div className="align-self-center px-5">
+            <h2 className="font-weight-bold text-dark pt-3">{work.title}</h2>
             <h3 className="text-primary">{work.topic}</h3>
             <div className="text-secondary">{work.level}</div>
             <div className="py-4">
@@ -49,32 +38,43 @@ export default function GraphicsView() {
       </div>
       <div className="spacer"></div>
       <section className="py-5">
-        <div className="row p-sm-5">
-          <div className="col-md-4 boldish d-flex justify-content-center px-sm-5">
-            <div className="align-self-start">
+        <div className="row p-sm-3">
+          <div className="col-lg-4 boldish d-flex justify-content-center">
+            <div className="align-self-start px-5">
+            <div className="spacer"></div>
               <h3 className="font-weight-bold text-primary">Background</h3>
               <h3 className="text-secondary">Concept & Ideating</h3>
-              <p className="py-3">
+              <div className="py-4">
+              <p className="pt-3">
                 {work.concept}
               </p>
+              {
+                  view === 'septa' ? 
+                  <React.Fragment>
+                    <p>{work.logos}</p>
+                    <p>{work.type}</p>
+                    <p>{work.web}</p>
+                  </React.Fragment> :
+                  ""
+                }
+                </div>
             </div>
           </div>
-          <div className="col-md-8 text-dark">
+          <div className="col-lg-8 text-dark d-flex justify-content-center">
+            <div>
             {
               work.listImg.map((img) => {
-                return <div className="pb-5 d-flex justify-content-center" key={img}>
-                  <img className={work.horizontalImgs? "img-majority rounds shadow-md" : "img-fluid rounds shadow-md"} src={require(`../../img/${img}`)} alt={`list of ${work.title}`} />
+                return <div className="pb-5" key={img}>
+                  <img key={img} className={work.horizontalImgs ? "img-majority rounds shadow-md" : "img-fluid rounds shadow-md"} src={require(`../../img/${img}`)} alt={`list of ${work.title}`} />
                 </div>
               })
             }
             {
-              work.secondaryImg? 
-              // <div className="pt-5">
-                <img className="img-majority rounds shadow-md" src={require(`../../img/${work.secondaryImg}`)} alt={`large version ${work.title}`}/> 
-              // </div>
-              
-              : ''
+              work.secondaryImg ?
+                <img className="img-majority rounds shadow-md" src={require(`../../img/${work.secondaryImg}`)} alt={`large version ${work.title}`} />
+                : ''
             }
+            </div>
           </div>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function GraphicsView() {
           </div>
         </div>
         <div className="col-md-6 boldish p-4">
-          <Link to={`/works/graphics/${view}/viewer`}>Link</Link>
+          <Link to={`/works/graphics/concept-graphics/viewer`}>Link</Link>
         </div>
       </div>
     </section> */}

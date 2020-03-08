@@ -22,7 +22,7 @@ export default function WebWidget() {
                                     <img className="img-fluid " src={require(`../../img/${element.mainImg}`)} alt={element.mainImg} key={element.mainImg} />
                                 </div>
                                 <div className="col-lg-4 d-flex align-self-center px-sm-4">
-                                    <div>
+                                    <div className="w-100">
                                         <h2 className="font-weight-bold pt-3">{element.topic}</h2>
                                         <h3 className="boldish text-primary">{element.title}</h3>
                                         <div className="boldish">{element.date}</div>
