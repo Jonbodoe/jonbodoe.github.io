@@ -12,6 +12,7 @@ export default function WebView() {
     return work.url === view
   })
   let work = infos[0]
+  console.log(work.githubLink)
   return <React.Fragment>
     <div className="spacer"></div>
     <section className="no-padding px-sm-5">
@@ -28,6 +29,7 @@ export default function WebView() {
               <div className="pt-2">
                 <div className="boldish text-secondary">Objective :</div>
                 <p>{work.objective}</p>
+                <p>{work.idea}</p>
               </div>
               <div className="boldish text-secondary pb-1">Tools Used:</div>
               <div>
@@ -93,7 +95,9 @@ export default function WebView() {
               <h3 className="text-secondary boldish">See how it works!</h3>
               <div className="text-dark">
                 <div>Github Repository <a className="" href={work.githubRepo ? work.githubLink : ''} target="_blank" rel="noopener noreferrer">Link</a></div>
-                <div>{work.topic} Website <a className="" href={work.website ? work.website : ''} target="_blank" rel="noopener noreferrer">Link</a></div>
+                {!work.website ? <div className="text-secondary">Website currently being re-edited, check github link for progress</div> :
+                  <div>{work.topic} Website <a className="" href={work.website ? work.website : ''} target="_blank" rel="noopener noreferrer">Link</a></div>
+                }
               </div>
             </div>
           </div>

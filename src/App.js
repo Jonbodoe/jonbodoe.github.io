@@ -23,7 +23,6 @@ import Contact from './components/Contact.js';
 
 
 const App = ({ location }) => {
-  console.log(location)
   return (<React.Fragment>
     <ScrollToTop />
     {

@@ -29,7 +29,7 @@ const works = [
         url: 'rail-pix',
         date: '2019 / Junior Project',
         objective: 'Created a content management system using PHP / MySQL with CRUD functionalities',
-        idea: 'I wanted to create a website that uses Google APIs to "track" where people take photos of freights',
+        idea: 'I wanted to create a freight train tracking website that uses Google APIs to "track" where people take photos of freights',
         process: 'The requirements were that it had to be written in PHP with MySQL as a backend database. It involved utilizing techniques by importing and exporting components, as well as being able to use CRUD functionalities through a front-end interface that connects to the MySQL database. It also required to use dynamic data by using "super-globals" to determine the output on specific pages. The database itself had to be created specifically to be relational to other databases, as well as being separated based on its use-case.',
         design: 'The hardest aspect of designing a website is knowing the website\'s capabilities when Bootstrap. Throughout the designing process, I kept in mind how Bootstrap v4 works as a grid-like system and to adapt my UI\'s and widgets to their style.',
         development: 'When it came to development, making the PHP code more concise and refactored was quite a difficult task. As an aspiring developer, I try my best to minimize redundancies unless it\'s necessary or I couldn\'t find a way out. I implemented cases of separating everything into components, making functions perform one task only, and minimize call results from the MySQL database when necessary.',
@@ -145,7 +145,8 @@ const works = [
         supportImg: true,
         detailId: 4,
         githubRepo: true,
-        githubLink: ''
+        githubLink: 'https://github.com/Jonbodoe/Pixel-Adventure',
+        website: false
     },
 
 
