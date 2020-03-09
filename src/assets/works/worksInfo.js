@@ -23,7 +23,7 @@ const works = [
 
     // WEBBBBBBBBB
     {
-        mainImg: 'railpix1.jpg',
+        mainImg: 'railpix.jpg',
         title: 'Content Management System',
         topic: 'RailPix',
         url: 'rail-pix',
