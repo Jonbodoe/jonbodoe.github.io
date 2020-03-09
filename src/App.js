@@ -16,7 +16,9 @@ import ScrollToTop from './assets/etc/scrollTop';
 import {
   TransitionGroup,
   CSSTransition
-} from 'react-transition-group'
+} from 'react-transition-group';
+import Contact from './components/Contact.js';
+
 
 
 
@@ -25,7 +27,7 @@ const App = ({ location }) => {
   return (<React.Fragment>
     <ScrollToTop />
     {
-    location.pathname === "/resume" ? "" : <NavBar />
+    location.pathname === "/resume" ? "" : <NavBar location={location.hash}/>
     }
     <Route render={({ location }) => (
       <TransitionGroup>
@@ -41,9 +43,12 @@ const App = ({ location }) => {
             <Route path={`${process.env.PUBLIC_URL}/resume`}>
               <Resume />
             </Route>
-            <Route path={`${process.env.PUBLIC_URL}/`}>
-              <Home />
+            <Route exact path={`${process.env.PUBLIC_URL}/`}>
+              <Home/>
             </Route>
+            {/* <Route path={`${process.env.PUBLIC_URL}/#contact`}>
+              <Contact/>
+            </Route> */}
           </Switch>
         </CSSTransition>
       </TransitionGroup>

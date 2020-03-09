@@ -3,10 +3,12 @@ import Footer from "./Footer.js";
 import logosImg from "../img/logos.png";
 
 import workCategory from "../assets/home/workCategories"
+import Contact from "./Contact";
 
 
-const Home = () => {
+const Home = (anchor) => {
   // console.log(location)
+
   // works.forEach(work => console.log(work.mainImg))
 
   return <React.Fragment>
@@ -77,7 +79,7 @@ const Home = () => {
         </div>
       </section>
       <section id="contact">
-
+        <Contact/>
       </section>
       <Footer />
     </div>

@@ -6,6 +6,14 @@ body {
   background-color: #f8f9fa;
   
 }
+#heading {
+  height: 92vh;
+  width: 100vw;
+  background-color: #34373c;
+  background-image: url('./img/landing2.png');
+  background-size: cover;
+  background-position: center;
+}
 .text-serif {
   font-family: 'Alegreya';
 }
@@ -41,14 +49,6 @@ p {
   background-position: center;
 }
 
-#heading {
-  height: 92vh;
-  width: 100vw;
-  background-color: #34373c;
-  background-image: url('./img/landing2.png');
-  background-size: cover;
-  background-position: center;
-}
 h1 {
   font-size: 3rem;
 }
